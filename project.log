@@ -50,7 +50,7 @@
 2026-06-20 04:30:22 | DEBUG | P07 |   residual min:  -4622.56
 2026-06-20 04:30:22 | DEBUG | P07 |   residual max:  8584.86
 2026-06-20 04:30:22 | DEBUG | P07 |   residual mean: 5.90581e-14
-2026-06-20 04:30:22 | INFO | P07 | 
+2026-06-20 04:30:22 | INFO | P07 |
 CUSTOM: Update these notes and use Markdown cells to narrate what you see.
 
 How to read these (this is YOUR judgment, not the script's):
@@ -89,16 +89,16 @@ write down what you conclude.
 2026-06-20 04:30:25 | INFO | P07 | Fitted line:
 2026-06-20 04:30:25 | INFO | P07 |   co2 = 3.21582e-10 * gdp + 308.446
 2026-06-20 04:30:25 | INFO | P07 | ======================
-2026-06-20 04:30:25 | INFO | P07 | Review the fit numbers (R-squared, RMSE). 
-2026-06-20 04:30:25 | INFO | P07 | Look at the fitted-line plot and the residual plot. 
-2026-06-20 04:30:25 | INFO | P07 | Decide if a `straight line` is a fair description. 
+2026-06-20 04:30:25 | INFO | P07 | Review the fit numbers (R-squared, RMSE).
+2026-06-20 04:30:25 | INFO | P07 | Look at the fitted-line plot and the residual plot.
+2026-06-20 04:30:25 | INFO | P07 | Decide if a `straight line` is a fair description.
 2026-06-20 04:30:25 | INFO | P07 | If the residuals DO show a pattern (e.g. curve, funnel, clusters),
-2026-06-20 04:30:25 | INFO | P07 | then a straight line is NOT a good description. 
+2026-06-20 04:30:25 | INFO | P07 | then a straight line is NOT a good description.
 2026-06-20 04:30:25 | INFO | P07 | If the residuals DO NOT show a pattern,
-2026-06-20 04:30:25 | INFO | P07 | then a straight line MIGHT be a good description. 
+2026-06-20 04:30:25 | INFO | P07 | then a straight line MIGHT be a good description.
 2026-06-20 04:30:25 | INFO | P07 | Either way, the findings may be valuable.
 2026-06-20 04:30:25 | INFO | P07 | ======================
-2026-06-20 04:30:25 | INFO | P07 | Repeat with a different feature, or a transformed feature, 
+2026-06-20 04:30:25 | INFO | P07 | Repeat with a different feature, or a transformed feature,
 2026-06-20 04:30:25 | INFO | P07 | to investigate other options.
 2026-06-20 04:30:25 | INFO | P07 | ======================
 2026-06-20 04:30:25 | INFO | P07 | Include instructions and specifics in your README.md file.
@@ -164,7 +164,7 @@ write down what you conclude.
 2026-06-20 04:32:16 | DEBUG | P07 |   residual min:  -1058.8
 2026-06-20 04:32:16 | DEBUG | P07 |   residual max:  1288.69
 2026-06-20 04:32:16 | DEBUG | P07 |   residual mean: -5.31868e-14
-2026-06-20 04:32:16 | INFO | P07 | 
+2026-06-20 04:32:16 | INFO | P07 |
 CUSTOM: Update these notes and use Markdown cells to narrate what you see.
 
 How to read these (this is YOUR judgment, not the script's):
@@ -199,16 +199,16 @@ the plots together and write down what you conclude.
 2026-06-20 04:32:17 | INFO | P07 | Fitted line:
 2026-06-20 04:32:17 | INFO | P07 |   body_mass_g = 49.6856 * flipper_length_mm + -5780.83
 2026-06-20 04:32:17 | INFO | P07 | ======================
-2026-06-20 04:32:17 | INFO | P07 | Review the fit numbers (R-squared, RMSE). 
-2026-06-20 04:32:17 | INFO | P07 | Look at the fitted-line plot and the residual plot. 
-2026-06-20 04:32:17 | INFO | P07 | Decide if a `straight line` is a fair description. 
+2026-06-20 04:32:17 | INFO | P07 | Review the fit numbers (R-squared, RMSE).
+2026-06-20 04:32:17 | INFO | P07 | Look at the fitted-line plot and the residual plot.
+2026-06-20 04:32:17 | INFO | P07 | Decide if a `straight line` is a fair description.
 2026-06-20 04:32:17 | INFO | P07 | If the residuals DO show a pattern,
-2026-06-20 04:32:17 | INFO | P07 | then a straight line is NOT a good description. 
+2026-06-20 04:32:17 | INFO | P07 | then a straight line is NOT a good description.
 2026-06-20 04:32:17 | INFO | P07 | If the residuals DO NOT show a pattern,
-2026-06-20 04:32:17 | INFO | P07 | then a straight line MIGHT be a good description. 
+2026-06-20 04:32:17 | INFO | P07 | then a straight line MIGHT be a good description.
 2026-06-20 04:32:17 | INFO | P07 | Either way, the findings may be valuable.
 2026-06-20 04:32:17 | INFO | P07 | ======================
-2026-06-20 04:32:17 | INFO | P07 | Repeat with a different feature, or a transformed feature, 
+2026-06-20 04:32:17 | INFO | P07 | Repeat with a different feature, or a transformed feature,
 2026-06-20 04:32:17 | INFO | P07 | to investigate other options.
 2026-06-20 04:32:17 | INFO | P07 | ======================
 2026-06-20 04:32:17 | INFO | P07 | Include instructions and specifics in your README.md file.
@@ -223,3 +223,660 @@ the plots together and write down what you conclude.
 2026-06-20 04:32:30 | INFO | P07 | ========================
 2026-06-20 04:32:30 | INFO | P07 | Executed successfully!
 2026-06-20 04:32:30 | INFO | P07 | ========================
+2026-06-20 06:05:29 | INFO | P07 | === RUN START ===
+2026-06-20 06:05:29 | INFO | P07 | project=P07
+2026-06-20 06:05:29 | INFO | P07 | repo_dir=datafun-07-regression
+2026-06-20 06:05:29 | INFO | P07 | python=3.14.5
+2026-06-20 06:05:29 | INFO | P07 | os=Windows 11
+2026-06-20 06:05:29 | INFO | P07 | shell=powershell
+2026-06-20 06:05:29 | INFO | P07 | cwd=.
+2026-06-20 06:05:29 | INFO | P07 | github_actions=False
+2026-06-20 06:05:29 | INFO | P07 | === RUN START ===
+2026-06-20 06:05:29 | INFO | P07 | project=REGRESSION
+2026-06-20 06:05:29 | INFO | P07 | repo_dir=datafun-07-regression
+2026-06-20 06:05:29 | INFO | P07 | python=3.14.5
+2026-06-20 06:05:29 | INFO | P07 | os=Windows 11
+2026-06-20 06:05:29 | INFO | P07 | shell=powershell
+2026-06-20 06:05:29 | INFO | P07 | cwd=.
+2026-06-20 06:05:29 | INFO | P07 | github_actions=False
+2026-06-20 06:05:29 | INFO | P07 | === START main() ===
+2026-06-20 06:05:29 | INFO | P07 | Loading dataset: housing
+2026-06-20 06:05:29 | INFO | P07 | Loaded: 2930 rows, 83 columns
+2026-06-20 06:05:29 | INFO | P07 | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 06:05:29 | DEBUG | P07 | Columns required: ['GrLivArea', 'SalePrice']
+2026-06-20 06:13:51 | INFO | JT | === RUN START ===
+2026-06-20 06:13:51 | INFO | JT | project=JT
+2026-06-20 06:13:51 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 06:13:51 | INFO | JT | python=3.14.5
+2026-06-20 06:13:51 | INFO | JT | os=Windows 11
+2026-06-20 06:13:51 | INFO | JT | shell=powershell
+2026-06-20 06:13:51 | INFO | JT | cwd=.
+2026-06-20 06:13:51 | INFO | JT | github_actions=False
+2026-06-20 06:13:51 | INFO | JT | === RUN START ===
+2026-06-20 06:13:51 | INFO | JT | project=REGRESSION
+2026-06-20 06:13:51 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 06:13:51 | INFO | JT | python=3.14.5
+2026-06-20 06:13:51 | INFO | JT | os=Windows 11
+2026-06-20 06:13:51 | INFO | JT | shell=powershell
+2026-06-20 06:13:51 | INFO | JT | cwd=.
+2026-06-20 06:13:51 | INFO | JT | github_actions=False
+2026-06-20 06:13:51 | INFO | JT | === START main() ===
+2026-06-20 06:13:51 | INFO | JT | Loading dataset: housing
+2026-06-20 06:13:51 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 06:13:51 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 06:13:51 | DEBUG | JT | Columns required: ['Gr Liv Area', 'SalePrice']
+2026-06-20 06:13:51 | INFO | JT | Original rows: 2930
+2026-06-20 06:13:51 | INFO | JT | Model rows:    2930
+2026-06-20 06:13:51 | INFO | JT | Rows dropped:  0
+2026-06-20 06:13:51 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 06:13:51 | DEBUG | JT | X shape: (2930, 1)
+2026-06-20 06:13:51 | DEBUG | JT | y shape: (2930,)
+2026-06-20 06:13:51 | INFO | JT | Fitting linear regression model
+2026-06-20 06:13:51 | DEBUG | JT | slope: 111.694
+2026-06-20 06:13:51 | DEBUG | JT | intercept: 13289.6
+2026-06-20 06:13:51 | INFO | JT | Fitted line:
+2026-06-20 06:13:51 | INFO | JT |   SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 06:13:51 | DEBUG | JT | numpy check -> slope 111.694, intercept 13289.6
+2026-06-20 06:13:51 | INFO | JT | Computing fitted values
+2026-06-20 06:13:51 | INFO | JT | Predicting Sale Price (USD) for example Above-ground living area (sq ft) value
+2026-06-20 06:13:51 | DEBUG | JT | example Gr Liv Area: 2000.0
+2026-06-20 06:13:51 | DEBUG | JT | predicted SalePrice: 236677.63608036024
+2026-06-20 06:13:51 | INFO | JT | Computing residuals
+2026-06-20 06:13:51 | DEBUG | JT | R-squared: 0.4995
+2026-06-20 06:13:51 | DEBUG | JT | RMSE: 56504.9
+2026-06-20 06:13:51 | DEBUG | JT | Residual min: -483467
+2026-06-20 06:13:51 | DEBUG | JT | Residual max: 334323
+2026-06-20 06:13:51 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 06:13:52 | INFO | JT | Creating residual plot
+2026-06-20 06:13:52 | INFO | JT | ========================
+2026-06-20 06:13:52 | INFO | JT | SUMMARY
+2026-06-20 06:13:52 | INFO | JT | ========================
+2026-06-20 06:13:52 | INFO | JT | Dataset: housing
+2026-06-20 06:13:52 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 06:13:52 | INFO | JT | Target  (y): SalePrice
+2026-06-20 06:13:52 | INFO | JT | Original rows: 2930
+2026-06-20 06:13:52 | INFO | JT | Model rows:    2930
+2026-06-20 06:13:52 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 06:13:52 | INFO | JT | ========================
+2026-06-20 06:13:52 | INFO | JT | Displaying charts...
+2026-06-20 06:16:01 | INFO | JT | Regression workflow complete
+2026-06-20 06:16:01 | INFO | JT | Executed successfully!
+2026-06-20 06:17:54 | INFO | JT | === RUN START ===
+2026-06-20 06:17:54 | INFO | JT | project=JT
+2026-06-20 06:17:54 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 06:17:54 | INFO | JT | python=3.14.5
+2026-06-20 06:17:54 | INFO | JT | os=Windows 11
+2026-06-20 06:17:54 | INFO | JT | shell=powershell
+2026-06-20 06:17:54 | INFO | JT | cwd=.
+2026-06-20 06:17:54 | INFO | JT | github_actions=False
+2026-06-20 06:17:54 | INFO | JT | === RUN START ===
+2026-06-20 06:17:54 | INFO | JT | project=REGRESSION
+2026-06-20 06:17:54 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 06:17:54 | INFO | JT | python=3.14.5
+2026-06-20 06:17:54 | INFO | JT | os=Windows 11
+2026-06-20 06:17:54 | INFO | JT | shell=powershell
+2026-06-20 06:17:54 | INFO | JT | cwd=.
+2026-06-20 06:17:54 | INFO | JT | github_actions=False
+2026-06-20 06:17:54 | INFO | JT | === START main() ===
+2026-06-20 06:17:54 | INFO | JT | Loading dataset: housing
+2026-06-20 06:17:54 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 06:17:54 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 06:17:54 | DEBUG | JT | Columns required: ['Gr Liv Area', 'SalePrice']
+2026-06-20 06:17:54 | INFO | JT | Original rows: 2930
+2026-06-20 06:17:54 | INFO | JT | Model rows:    2930
+2026-06-20 06:17:54 | INFO | JT | Rows dropped:  0
+2026-06-20 06:17:54 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 06:17:54 | DEBUG | JT | X shape: (2930, 1)
+2026-06-20 06:17:54 | DEBUG | JT | y shape: (2930,)
+2026-06-20 06:17:54 | INFO | JT | Fitting linear regression model
+2026-06-20 06:17:54 | DEBUG | JT | slope: 111.694
+2026-06-20 06:17:54 | DEBUG | JT | intercept: 13289.6
+2026-06-20 06:17:54 | INFO | JT | Fitted line:
+2026-06-20 06:17:54 | INFO | JT |   SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 06:17:54 | DEBUG | JT | numpy check -> slope 111.694, intercept 13289.6
+2026-06-20 06:17:54 | INFO | JT | Computing fitted values
+2026-06-20 06:17:54 | INFO | JT | Predicting Sale Price (USD) for example Above-ground living area (sq ft) value
+2026-06-20 06:17:54 | DEBUG | JT | example Gr Liv Area: 2000.0
+2026-06-20 06:17:54 | DEBUG | JT | predicted SalePrice: 236677.63608036024
+2026-06-20 06:17:54 | INFO | JT | Computing residuals
+2026-06-20 06:17:54 | DEBUG | JT | R-squared: 0.4995
+2026-06-20 06:17:54 | DEBUG | JT | RMSE: 56504.9
+2026-06-20 06:17:54 | DEBUG | JT | Residual min: -483467
+2026-06-20 06:17:54 | DEBUG | JT | Residual max: 334323
+2026-06-20 06:17:54 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 06:17:54 | INFO | JT | Creating residual plot
+2026-06-20 06:17:55 | INFO | JT | ========================
+2026-06-20 06:17:55 | INFO | JT | SUMMARY
+2026-06-20 06:17:55 | INFO | JT | ========================
+2026-06-20 06:17:55 | INFO | JT | Dataset: housing
+2026-06-20 06:17:55 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 06:17:55 | INFO | JT | Target  (y): SalePrice
+2026-06-20 06:17:55 | INFO | JT | Original rows: 2930
+2026-06-20 06:17:55 | INFO | JT | Model rows:    2930
+2026-06-20 06:17:55 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 06:17:55 | INFO | JT | ========================
+2026-06-20 06:17:55 | INFO | JT | Displaying charts...
+2026-06-20 06:17:58 | INFO | JT | Regression workflow complete
+2026-06-20 06:17:58 | INFO | JT | Executed successfully!
+2026-06-20 06:21:26 | INFO | JT | === RUN START ===
+2026-06-20 06:21:26 | INFO | JT | project=JT
+2026-06-20 06:21:26 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 06:21:26 | INFO | JT | python=3.14.5
+2026-06-20 06:21:26 | INFO | JT | os=Windows 11
+2026-06-20 06:21:26 | INFO | JT | shell=powershell
+2026-06-20 06:21:26 | INFO | JT | cwd=.
+2026-06-20 06:21:26 | INFO | JT | github_actions=False
+2026-06-20 06:21:26 | INFO | JT | === RUN START ===
+2026-06-20 06:21:26 | INFO | JT | project=REGRESSION
+2026-06-20 06:21:26 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 06:21:26 | INFO | JT | python=3.14.5
+2026-06-20 06:21:26 | INFO | JT | os=Windows 11
+2026-06-20 06:21:26 | INFO | JT | shell=powershell
+2026-06-20 06:21:26 | INFO | JT | cwd=.
+2026-06-20 06:21:26 | INFO | JT | github_actions=False
+2026-06-20 06:21:26 | INFO | JT | === START main() ===
+2026-06-20 06:21:26 | INFO | JT | Loading dataset: housing
+2026-06-20 06:21:26 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 06:21:26 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 06:21:26 | DEBUG | JT | Columns required: ['Gr Liv Area', 'SalePrice']
+2026-06-20 06:21:26 | INFO | JT | Original rows: 2930
+2026-06-20 06:21:26 | INFO | JT | Model rows:    2930
+2026-06-20 06:21:26 | INFO | JT | Rows dropped:  0
+2026-06-20 06:21:26 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 06:21:26 | DEBUG | JT | X shape: (2930, 1)
+2026-06-20 06:21:26 | DEBUG | JT | y shape: (2930,)
+2026-06-20 06:21:26 | INFO | JT | Fitting linear regression model
+2026-06-20 06:21:26 | DEBUG | JT | slope: 111.694
+2026-06-20 06:21:26 | DEBUG | JT | intercept: 13289.6
+2026-06-20 06:21:26 | INFO | JT | Fitted line:
+2026-06-20 06:21:26 | INFO | JT |   SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 06:21:26 | DEBUG | JT | numpy check -> slope 111.694, intercept 13289.6
+2026-06-20 06:21:26 | INFO | JT | Computing fitted values
+2026-06-20 06:21:26 | INFO | JT | Predicting Sale Price (USD) for example Above-ground living area (sq ft) value
+2026-06-20 06:21:26 | DEBUG | JT | example Gr Liv Area: 2000.0
+2026-06-20 06:21:26 | DEBUG | JT | predicted SalePrice: 236677.63608036024
+2026-06-20 06:21:26 | INFO | JT | Computing residuals
+2026-06-20 06:21:26 | DEBUG | JT | R-squared: 0.4995
+2026-06-20 06:21:26 | DEBUG | JT | RMSE: 56504.9
+2026-06-20 06:21:26 | DEBUG | JT | Residual min: -483467
+2026-06-20 06:21:26 | DEBUG | JT | Residual max: 334323
+2026-06-20 06:21:26 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 06:21:26 | INFO | JT | Creating residual plot
+2026-06-20 06:21:26 | INFO | JT | ========================
+2026-06-20 06:21:26 | INFO | JT | SUMMARY
+2026-06-20 06:21:26 | INFO | JT | ========================
+2026-06-20 06:21:26 | INFO | JT | Dataset: housing
+2026-06-20 06:21:26 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 06:21:26 | INFO | JT | Target  (y): SalePrice
+2026-06-20 06:21:26 | INFO | JT | Original rows: 2930
+2026-06-20 06:21:26 | INFO | JT | Model rows:    2930
+2026-06-20 06:21:26 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 06:21:26 | INFO | JT | ========================
+2026-06-20 06:21:26 | INFO | JT | Displaying charts...
+2026-06-20 06:21:30 | INFO | JT | Regression workflow complete
+2026-06-20 06:21:30 | INFO | JT | Executed successfully!
+2026-06-20 06:22:17 | INFO | JT | === RUN START ===
+2026-06-20 06:22:17 | INFO | JT | project=JT
+2026-06-20 06:22:17 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 06:22:17 | INFO | JT | python=3.14.5
+2026-06-20 06:22:17 | INFO | JT | os=Windows 11
+2026-06-20 06:22:17 | INFO | JT | shell=powershell
+2026-06-20 06:22:17 | INFO | JT | cwd=.
+2026-06-20 06:22:17 | INFO | JT | github_actions=False
+2026-06-20 06:22:17 | INFO | JT | === RUN START ===
+2026-06-20 06:22:17 | INFO | JT | project=REGRESSION
+2026-06-20 06:22:17 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 06:22:17 | INFO | JT | python=3.14.5
+2026-06-20 06:22:17 | INFO | JT | os=Windows 11
+2026-06-20 06:22:17 | INFO | JT | shell=powershell
+2026-06-20 06:22:17 | INFO | JT | cwd=.
+2026-06-20 06:22:17 | INFO | JT | github_actions=False
+2026-06-20 06:22:17 | INFO | JT | === START main() ===
+2026-06-20 06:22:17 | INFO | JT | Loading dataset: housing
+2026-06-20 06:22:17 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 06:22:17 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 06:22:17 | DEBUG | JT | Columns required: ['Gr Liv Area', 'SalePrice']
+2026-06-20 06:22:17 | INFO | JT | Original rows: 2930
+2026-06-20 06:22:17 | INFO | JT | Model rows:    2930
+2026-06-20 06:22:17 | INFO | JT | Rows dropped:  0
+2026-06-20 06:22:17 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 06:22:17 | DEBUG | JT | X shape: (2930, 1)
+2026-06-20 06:22:17 | DEBUG | JT | y shape: (2930,)
+2026-06-20 06:22:17 | INFO | JT | Fitting linear regression model
+2026-06-20 06:22:17 | DEBUG | JT | slope: 111.694
+2026-06-20 06:22:17 | DEBUG | JT | intercept: 13289.6
+2026-06-20 06:22:17 | INFO | JT | Fitted line:
+2026-06-20 06:22:17 | INFO | JT |   SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 06:22:17 | DEBUG | JT | numpy check -> slope 111.694, intercept 13289.6
+2026-06-20 06:22:17 | INFO | JT | Computing fitted values
+2026-06-20 06:22:17 | INFO | JT | Predicting Sale Price (USD) for example Above-ground living area (sq ft) value
+2026-06-20 06:22:17 | DEBUG | JT | example Gr Liv Area: 2000.0
+2026-06-20 06:22:17 | DEBUG | JT | predicted SalePrice: 236677.63608036024
+2026-06-20 06:22:17 | INFO | JT | Computing residuals
+2026-06-20 06:22:17 | DEBUG | JT | R-squared: 0.4995
+2026-06-20 06:22:17 | DEBUG | JT | RMSE: 56504.9
+2026-06-20 06:22:17 | DEBUG | JT | Residual min: -483467
+2026-06-20 06:22:17 | DEBUG | JT | Residual max: 334323
+2026-06-20 06:22:17 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 06:22:18 | INFO | JT | Creating residual plot
+2026-06-20 06:22:18 | INFO | JT | ========================
+2026-06-20 06:22:18 | INFO | JT | SUMMARY
+2026-06-20 06:22:18 | INFO | JT | ========================
+2026-06-20 06:22:18 | INFO | JT | Dataset: housing
+2026-06-20 06:22:18 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 06:22:18 | INFO | JT | Target  (y): SalePrice
+2026-06-20 06:22:18 | INFO | JT | Original rows: 2930
+2026-06-20 06:22:18 | INFO | JT | Model rows:    2930
+2026-06-20 06:22:18 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 06:22:18 | INFO | JT | ========================
+2026-06-20 06:22:18 | INFO | JT | Displaying charts...
+2026-06-20 06:22:36 | INFO | JT | Regression workflow complete
+2026-06-20 06:22:36 | INFO | JT | Executed successfully!
+2026-06-20 15:03:12 | INFO | JT | === RUN START ===
+2026-06-20 15:03:12 | INFO | JT | project=JT
+2026-06-20 15:03:12 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:03:12 | INFO | JT | python=3.14.5
+2026-06-20 15:03:12 | INFO | JT | os=Windows 11
+2026-06-20 15:03:12 | INFO | JT | shell=powershell
+2026-06-20 15:03:12 | INFO | JT | cwd=.
+2026-06-20 15:03:12 | INFO | JT | github_actions=False
+2026-06-20 15:03:12 | INFO | JT | === RUN START ===
+2026-06-20 15:03:12 | INFO | JT | project=REGRESSION
+2026-06-20 15:03:12 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:03:12 | INFO | JT | python=3.14.5
+2026-06-20 15:03:12 | INFO | JT | os=Windows 11
+2026-06-20 15:03:12 | INFO | JT | shell=powershell
+2026-06-20 15:03:12 | INFO | JT | cwd=.
+2026-06-20 15:03:12 | INFO | JT | github_actions=False
+2026-06-20 15:03:12 | INFO | JT | === START main() ===
+2026-06-20 15:03:12 | INFO | JT | Loading dataset: housing
+2026-06-20 15:03:12 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 15:03:12 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 15:03:12 | DEBUG | JT | Columns required: ['Gr Liv Area', 'SalePrice']
+2026-06-20 15:03:12 | INFO | JT | Original rows: 2930
+2026-06-20 15:03:12 | INFO | JT | Model rows:    2930
+2026-06-20 15:03:12 | INFO | JT | Rows dropped:  0
+2026-06-20 15:03:12 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 15:03:12 | DEBUG | JT | X shape: (2930, 1)
+2026-06-20 15:03:12 | DEBUG | JT | y shape: (2930,)
+2026-06-20 15:03:12 | INFO | JT | Fitting linear regression model
+2026-06-20 15:03:12 | DEBUG | JT | slope: 111.694
+2026-06-20 15:03:12 | DEBUG | JT | intercept: 13289.6
+2026-06-20 15:03:12 | INFO | JT | Fitted line:
+2026-06-20 15:03:12 | INFO | JT |   SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:03:12 | DEBUG | JT | numpy check -> slope 111.694, intercept 13289.6
+2026-06-20 15:03:12 | INFO | JT | Computing fitted values
+2026-06-20 15:03:12 | INFO | JT | Predicting Sale Price (USD) for example Above-ground living area (sq ft) value
+2026-06-20 15:03:12 | DEBUG | JT | example Gr Liv Area: 2000.0
+2026-06-20 15:03:12 | DEBUG | JT | predicted SalePrice: 236677.63608036024
+2026-06-20 15:03:12 | INFO | JT | Computing residuals
+2026-06-20 15:03:12 | DEBUG | JT | R-squared: 0.4995
+2026-06-20 15:03:12 | DEBUG | JT | RMSE: 56504.9
+2026-06-20 15:03:12 | DEBUG | JT | Residual min: -483467
+2026-06-20 15:03:12 | DEBUG | JT | Residual max: 334323
+2026-06-20 15:03:12 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 15:03:12 | INFO | JT | Creating residual plot
+2026-06-20 15:03:14 | INFO | JT | ========================
+2026-06-20 15:03:14 | INFO | JT | SUMMARY
+2026-06-20 15:03:14 | INFO | JT | ========================
+2026-06-20 15:03:14 | INFO | JT | Dataset: housing
+2026-06-20 15:03:14 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 15:03:14 | INFO | JT | Target  (y): SalePrice
+2026-06-20 15:03:14 | INFO | JT | Original rows: 2930
+2026-06-20 15:03:14 | INFO | JT | Model rows:    2930
+2026-06-20 15:03:14 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:03:14 | INFO | JT | ========================
+2026-06-20 15:03:14 | INFO | JT | Displaying charts...
+2026-06-20 15:03:17 | INFO | JT | Regression workflow complete
+2026-06-20 15:03:17 | INFO | JT | Executed successfully!
+2026-06-20 15:26:35 | INFO | JT | === RUN START ===
+2026-06-20 15:26:35 | INFO | JT | project=JT
+2026-06-20 15:26:35 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:26:35 | INFO | JT | python=3.14.5
+2026-06-20 15:26:35 | INFO | JT | os=Windows 11
+2026-06-20 15:26:35 | INFO | JT | shell=powershell
+2026-06-20 15:26:35 | INFO | JT | cwd=.
+2026-06-20 15:26:35 | INFO | JT | github_actions=False
+2026-06-20 15:26:35 | INFO | JT | === RUN START ===
+2026-06-20 15:26:35 | INFO | JT | project=REGRESSION
+2026-06-20 15:26:35 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:26:35 | INFO | JT | python=3.14.5
+2026-06-20 15:26:35 | INFO | JT | os=Windows 11
+2026-06-20 15:26:35 | INFO | JT | shell=powershell
+2026-06-20 15:26:35 | INFO | JT | cwd=.
+2026-06-20 15:26:35 | INFO | JT | github_actions=False
+2026-06-20 15:26:35 | INFO | JT | Loading dataset: housing
+2026-06-20 15:26:35 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 15:26:35 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 15:26:35 | INFO | JT | Original rows: 2930
+2026-06-20 15:26:35 | INFO | JT | Model rows:    2930
+2026-06-20 15:26:35 | INFO | JT | Rows dropped:  0
+2026-06-20 15:26:35 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 15:26:35 | INFO | JT | Fitting linear regression model
+2026-06-20 15:26:35 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:26:35 | INFO | JT | Computing fitted values
+2026-06-20 15:26:35 | INFO | JT | Computing residuals
+2026-06-20 15:26:35 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 15:26:37 | INFO | JT | Creating residual plot
+2026-06-20 15:26:38 | INFO | JT | ========================
+2026-06-20 15:26:38 | INFO | JT | SUMMARY
+2026-06-20 15:26:38 | INFO | JT | ========================
+2026-06-20 15:26:38 | INFO | JT | Dataset: housing
+2026-06-20 15:26:38 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 15:26:38 | INFO | JT | Target  (y): SalePrice
+2026-06-20 15:26:38 | INFO | JT | Original rows: 2930
+2026-06-20 15:26:38 | INFO | JT | Model rows:    2930
+2026-06-20 15:26:38 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:26:38 | INFO | JT | ========================
+2026-06-20 15:34:42 | INFO | JT | === RUN START ===
+2026-06-20 15:34:42 | INFO | JT | project=JT
+2026-06-20 15:34:42 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:34:42 | INFO | JT | python=3.14.5
+2026-06-20 15:34:42 | INFO | JT | os=Windows 11
+2026-06-20 15:34:42 | INFO | JT | shell=powershell
+2026-06-20 15:34:42 | INFO | JT | cwd=.
+2026-06-20 15:34:42 | INFO | JT | github_actions=False
+2026-06-20 15:34:42 | INFO | JT | === RUN START ===
+2026-06-20 15:34:42 | INFO | JT | project=REGRESSION
+2026-06-20 15:34:42 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:34:42 | INFO | JT | python=3.14.5
+2026-06-20 15:34:42 | INFO | JT | os=Windows 11
+2026-06-20 15:34:42 | INFO | JT | shell=powershell
+2026-06-20 15:34:42 | INFO | JT | cwd=.
+2026-06-20 15:34:42 | INFO | JT | github_actions=False
+2026-06-20 15:34:42 | INFO | JT | Loading dataset: housing
+2026-06-20 15:34:42 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 15:34:42 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 15:34:42 | INFO | JT | Original rows: 2930
+2026-06-20 15:34:42 | INFO | JT | Model rows:    2930
+2026-06-20 15:34:42 | INFO | JT | Rows dropped:  0
+2026-06-20 15:34:42 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 15:34:42 | INFO | JT | Fitting linear regression model
+2026-06-20 15:34:42 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:34:42 | INFO | JT | Computing fitted values
+2026-06-20 15:34:42 | INFO | JT | Computing residuals
+2026-06-20 15:34:42 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 15:34:43 | INFO | JT | Creating residual plot
+2026-06-20 15:34:43 | INFO | JT | ========================
+2026-06-20 15:34:43 | INFO | JT | SUMMARY
+2026-06-20 15:34:43 | INFO | JT | ========================
+2026-06-20 15:34:43 | INFO | JT | Dataset: housing
+2026-06-20 15:34:43 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 15:34:43 | INFO | JT | Target  (y): SalePrice
+2026-06-20 15:34:43 | INFO | JT | Original rows: 2930
+2026-06-20 15:34:43 | INFO | JT | Model rows:    2930
+2026-06-20 15:34:43 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:34:43 | INFO | JT | ========================
+2026-06-20 15:43:43 | INFO | JT | === RUN START ===
+2026-06-20 15:43:43 | INFO | JT | project=JT
+2026-06-20 15:43:43 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:43:43 | INFO | JT | python=3.14.5
+2026-06-20 15:43:43 | INFO | JT | os=Windows 11
+2026-06-20 15:43:43 | INFO | JT | shell=powershell
+2026-06-20 15:43:43 | INFO | JT | cwd=.
+2026-06-20 15:43:43 | INFO | JT | github_actions=False
+2026-06-20 15:43:43 | INFO | JT | === RUN START ===
+2026-06-20 15:43:43 | INFO | JT | project=REGRESSION
+2026-06-20 15:43:43 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:43:43 | INFO | JT | python=3.14.5
+2026-06-20 15:43:43 | INFO | JT | os=Windows 11
+2026-06-20 15:43:43 | INFO | JT | shell=powershell
+2026-06-20 15:43:43 | INFO | JT | cwd=.
+2026-06-20 15:43:43 | INFO | JT | github_actions=False
+2026-06-20 15:43:43 | INFO | JT | Loading dataset: housing
+2026-06-20 15:43:43 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 15:43:43 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 15:43:43 | INFO | JT | Original rows: 2930
+2026-06-20 15:43:43 | INFO | JT | Model rows:    2930
+2026-06-20 15:43:43 | INFO | JT | Rows dropped:  0
+2026-06-20 15:43:43 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 15:43:43 | INFO | JT | Fitting linear regression model
+2026-06-20 15:43:43 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:43:43 | INFO | JT | Computing fitted values
+2026-06-20 15:43:43 | INFO | JT | Computing residuals
+2026-06-20 15:43:43 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 15:43:44 | INFO | JT | Creating residual plot
+2026-06-20 15:43:44 | INFO | JT | ========================
+2026-06-20 15:43:44 | INFO | JT | SUMMARY
+2026-06-20 15:43:44 | INFO | JT | ========================
+2026-06-20 15:43:44 | INFO | JT | Dataset: housing
+2026-06-20 15:43:44 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 15:43:44 | INFO | JT | Target  (y): SalePrice
+2026-06-20 15:43:44 | INFO | JT | Original rows: 2930
+2026-06-20 15:43:44 | INFO | JT | Model rows:    2930
+2026-06-20 15:43:44 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:43:44 | INFO | JT | ========================
+2026-06-20 15:45:43 | INFO | JT | === RUN START ===
+2026-06-20 15:45:43 | INFO | JT | project=JT
+2026-06-20 15:45:43 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:45:43 | INFO | JT | python=3.14.5
+2026-06-20 15:45:43 | INFO | JT | os=Windows 11
+2026-06-20 15:45:43 | INFO | JT | shell=powershell
+2026-06-20 15:45:43 | INFO | JT | cwd=.
+2026-06-20 15:45:43 | INFO | JT | github_actions=False
+2026-06-20 15:45:43 | INFO | JT | === RUN START ===
+2026-06-20 15:45:43 | INFO | JT | project=REGRESSION
+2026-06-20 15:45:43 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:45:43 | INFO | JT | python=3.14.5
+2026-06-20 15:45:43 | INFO | JT | os=Windows 11
+2026-06-20 15:45:43 | INFO | JT | shell=powershell
+2026-06-20 15:45:43 | INFO | JT | cwd=.
+2026-06-20 15:45:43 | INFO | JT | github_actions=False
+2026-06-20 15:45:43 | INFO | JT | Loading dataset: housing
+2026-06-20 15:45:43 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 15:45:43 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 15:45:43 | INFO | JT | Original rows: 2930
+2026-06-20 15:45:43 | INFO | JT | Model rows:    2930
+2026-06-20 15:45:43 | INFO | JT | Rows dropped:  0
+2026-06-20 15:45:43 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 15:45:43 | INFO | JT | Fitting linear regression model
+2026-06-20 15:45:43 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:45:43 | INFO | JT | Computing fitted values
+2026-06-20 15:45:43 | INFO | JT | Computing residuals
+2026-06-20 15:45:43 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 15:45:43 | INFO | JT | Creating residual plot
+2026-06-20 15:45:44 | INFO | JT | ========================
+2026-06-20 15:45:44 | INFO | JT | SUMMARY
+2026-06-20 15:45:44 | INFO | JT | ========================
+2026-06-20 15:45:44 | INFO | JT | Dataset: housing
+2026-06-20 15:45:44 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 15:45:44 | INFO | JT | Target  (y): SalePrice
+2026-06-20 15:45:44 | INFO | JT | Original rows: 2930
+2026-06-20 15:45:44 | INFO | JT | Model rows:    2930
+2026-06-20 15:45:44 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:45:44 | INFO | JT | ========================
+2026-06-20 15:46:29 | INFO | JT | === RUN START ===
+2026-06-20 15:46:29 | INFO | JT | project=JT
+2026-06-20 15:46:29 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:46:29 | INFO | JT | python=3.14.5
+2026-06-20 15:46:29 | INFO | JT | os=Windows 11
+2026-06-20 15:46:29 | INFO | JT | shell=powershell
+2026-06-20 15:46:29 | INFO | JT | cwd=.
+2026-06-20 15:46:29 | INFO | JT | github_actions=False
+2026-06-20 15:46:29 | INFO | JT | === RUN START ===
+2026-06-20 15:46:29 | INFO | JT | project=REGRESSION
+2026-06-20 15:46:29 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:46:29 | INFO | JT | python=3.14.5
+2026-06-20 15:46:29 | INFO | JT | os=Windows 11
+2026-06-20 15:46:29 | INFO | JT | shell=powershell
+2026-06-20 15:46:29 | INFO | JT | cwd=.
+2026-06-20 15:46:29 | INFO | JT | github_actions=False
+2026-06-20 15:46:29 | INFO | JT | Loading dataset: housing
+2026-06-20 15:46:29 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 15:46:29 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 15:46:29 | INFO | JT | Original rows: 2930
+2026-06-20 15:46:29 | INFO | JT | Model rows:    2930
+2026-06-20 15:46:29 | INFO | JT | Rows dropped:  0
+2026-06-20 15:46:29 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 15:46:29 | INFO | JT | Fitting linear regression model
+2026-06-20 15:46:29 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:46:29 | INFO | JT | Computing fitted values
+2026-06-20 15:46:29 | INFO | JT | Computing residuals
+2026-06-20 15:46:29 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 15:46:30 | INFO | JT | Creating residual plot
+2026-06-20 15:46:30 | INFO | JT | ========================
+2026-06-20 15:46:30 | INFO | JT | SUMMARY
+2026-06-20 15:46:30 | INFO | JT | ========================
+2026-06-20 15:46:30 | INFO | JT | Dataset: housing
+2026-06-20 15:46:30 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 15:46:30 | INFO | JT | Target  (y): SalePrice
+2026-06-20 15:46:30 | INFO | JT | Original rows: 2930
+2026-06-20 15:46:30 | INFO | JT | Model rows:    2930
+2026-06-20 15:46:30 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:46:30 | INFO | JT | ========================
+2026-06-20 15:47:01 | INFO | JT | === RUN START ===
+2026-06-20 15:47:01 | INFO | JT | project=JT
+2026-06-20 15:47:01 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:47:01 | INFO | JT | python=3.14.5
+2026-06-20 15:47:01 | INFO | JT | os=Windows 11
+2026-06-20 15:47:01 | INFO | JT | shell=powershell
+2026-06-20 15:47:01 | INFO | JT | cwd=.
+2026-06-20 15:47:01 | INFO | JT | github_actions=False
+2026-06-20 15:47:01 | INFO | JT | === RUN START ===
+2026-06-20 15:47:01 | INFO | JT | project=REGRESSION
+2026-06-20 15:47:01 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:47:01 | INFO | JT | python=3.14.5
+2026-06-20 15:47:01 | INFO | JT | os=Windows 11
+2026-06-20 15:47:01 | INFO | JT | shell=powershell
+2026-06-20 15:47:01 | INFO | JT | cwd=.
+2026-06-20 15:47:01 | INFO | JT | github_actions=False
+2026-06-20 15:47:01 | INFO | JT | Loading dataset: housing
+2026-06-20 15:47:01 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 15:47:01 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 15:47:01 | INFO | JT | Original rows: 2930
+2026-06-20 15:47:01 | INFO | JT | Model rows:    2930
+2026-06-20 15:47:01 | INFO | JT | Rows dropped:  0
+2026-06-20 15:47:01 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 15:47:01 | INFO | JT | Fitting linear regression model
+2026-06-20 15:47:01 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:47:01 | INFO | JT | Computing fitted values
+2026-06-20 15:47:01 | INFO | JT | Computing residuals
+2026-06-20 15:47:01 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 15:47:02 | INFO | JT | Creating residual plot
+2026-06-20 15:47:02 | INFO | JT | ========================
+2026-06-20 15:47:02 | INFO | JT | SUMMARY
+2026-06-20 15:47:02 | INFO | JT | ========================
+2026-06-20 15:47:02 | INFO | JT | Dataset: housing
+2026-06-20 15:47:02 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 15:47:02 | INFO | JT | Target  (y): SalePrice
+2026-06-20 15:47:02 | INFO | JT | Original rows: 2930
+2026-06-20 15:47:02 | INFO | JT | Model rows:    2930
+2026-06-20 15:47:02 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:47:02 | INFO | JT | ========================
+2026-06-20 15:47:49 | INFO | JT | === RUN START ===
+2026-06-20 15:47:49 | INFO | JT | project=JT
+2026-06-20 15:47:49 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:47:49 | INFO | JT | python=3.14.5
+2026-06-20 15:47:49 | INFO | JT | os=Windows 11
+2026-06-20 15:47:49 | INFO | JT | shell=powershell
+2026-06-20 15:47:49 | INFO | JT | cwd=.
+2026-06-20 15:47:49 | INFO | JT | github_actions=False
+2026-06-20 15:47:49 | INFO | JT | === RUN START ===
+2026-06-20 15:47:49 | INFO | JT | project=REGRESSION
+2026-06-20 15:47:49 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 15:47:49 | INFO | JT | python=3.14.5
+2026-06-20 15:47:49 | INFO | JT | os=Windows 11
+2026-06-20 15:47:49 | INFO | JT | shell=powershell
+2026-06-20 15:47:49 | INFO | JT | cwd=.
+2026-06-20 15:47:49 | INFO | JT | github_actions=False
+2026-06-20 15:47:49 | INFO | JT | Loading dataset: housing
+2026-06-20 15:47:49 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 15:47:49 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 15:47:49 | INFO | JT | Original rows: 2930
+2026-06-20 15:47:49 | INFO | JT | Model rows:    2930
+2026-06-20 15:47:49 | INFO | JT | Rows dropped:  0
+2026-06-20 15:47:49 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 15:47:49 | INFO | JT | Fitting linear regression model
+2026-06-20 15:47:49 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:47:49 | INFO | JT | Computing fitted values
+2026-06-20 15:47:49 | INFO | JT | Computing residuals
+2026-06-20 15:47:49 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 15:47:49 | INFO | JT | Creating residual plot
+2026-06-20 15:47:50 | INFO | JT | ========================
+2026-06-20 15:47:50 | INFO | JT | SUMMARY
+2026-06-20 15:47:50 | INFO | JT | ========================
+2026-06-20 15:47:50 | INFO | JT | Dataset: housing
+2026-06-20 15:47:50 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 15:47:50 | INFO | JT | Target  (y): SalePrice
+2026-06-20 15:47:50 | INFO | JT | Original rows: 2930
+2026-06-20 15:47:50 | INFO | JT | Model rows:    2930
+2026-06-20 15:47:50 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 15:47:50 | INFO | JT | ========================
+2026-06-20 16:03:31 | INFO | JT | === RUN START ===
+2026-06-20 16:03:31 | INFO | JT | project=JT
+2026-06-20 16:03:31 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 16:03:31 | INFO | JT | python=3.14.5
+2026-06-20 16:03:31 | INFO | JT | os=Windows 11
+2026-06-20 16:03:31 | INFO | JT | shell=powershell
+2026-06-20 16:03:31 | INFO | JT | cwd=.
+2026-06-20 16:03:31 | INFO | JT | github_actions=False
+2026-06-20 16:03:31 | INFO | JT | === RUN START ===
+2026-06-20 16:03:31 | INFO | JT | project=REGRESSION
+2026-06-20 16:03:31 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 16:03:31 | INFO | JT | python=3.14.5
+2026-06-20 16:03:31 | INFO | JT | os=Windows 11
+2026-06-20 16:03:31 | INFO | JT | shell=powershell
+2026-06-20 16:03:31 | INFO | JT | cwd=.
+2026-06-20 16:03:31 | INFO | JT | github_actions=False
+2026-06-20 16:03:31 | INFO | JT | Loading dataset: housing
+2026-06-20 16:03:31 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 16:03:31 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 16:03:31 | INFO | JT | Original rows: 2930
+2026-06-20 16:03:31 | INFO | JT | Model rows:    2930
+2026-06-20 16:03:31 | INFO | JT | Rows dropped:  0
+2026-06-20 16:03:31 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 16:03:31 | INFO | JT | Fitting linear regression model
+2026-06-20 16:03:31 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 16:03:31 | INFO | JT | Computing fitted values
+2026-06-20 16:03:31 | INFO | JT | Computing residuals
+2026-06-20 16:03:31 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 16:03:33 | INFO | JT | Creating residual plot
+2026-06-20 16:03:33 | INFO | JT | ========================
+2026-06-20 16:03:33 | INFO | JT | SUMMARY
+2026-06-20 16:03:33 | INFO | JT | ========================
+2026-06-20 16:03:33 | INFO | JT | Dataset: housing
+2026-06-20 16:03:33 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 16:03:33 | INFO | JT | Target  (y): SalePrice
+2026-06-20 16:03:33 | INFO | JT | Original rows: 2930
+2026-06-20 16:03:33 | INFO | JT | Model rows:    2930
+2026-06-20 16:03:33 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 16:03:33 | INFO | JT | ========================
+2026-06-20 16:05:48 | INFO | JT | === RUN START ===
+2026-06-20 16:05:48 | INFO | JT | project=JT
+2026-06-20 16:05:48 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 16:05:48 | INFO | JT | python=3.14.5
+2026-06-20 16:05:48 | INFO | JT | os=Windows 11
+2026-06-20 16:05:48 | INFO | JT | shell=powershell
+2026-06-20 16:05:48 | INFO | JT | cwd=.
+2026-06-20 16:05:48 | INFO | JT | github_actions=False
+2026-06-20 16:05:48 | INFO | JT | === RUN START ===
+2026-06-20 16:05:48 | INFO | JT | project=REGRESSION
+2026-06-20 16:05:48 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-20 16:05:48 | INFO | JT | python=3.14.5
+2026-06-20 16:05:48 | INFO | JT | os=Windows 11
+2026-06-20 16:05:48 | INFO | JT | shell=powershell
+2026-06-20 16:05:48 | INFO | JT | cwd=.
+2026-06-20 16:05:48 | INFO | JT | github_actions=False
+2026-06-20 16:05:48 | INFO | JT | Loading dataset: housing
+2026-06-20 16:05:48 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-20 16:05:48 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-20 16:05:48 | INFO | JT | Original rows: 2930
+2026-06-20 16:05:48 | INFO | JT | Model rows:    2930
+2026-06-20 16:05:48 | INFO | JT | Rows dropped:  0
+2026-06-20 16:05:48 | INFO | JT | Building feature matrix X and target vector y
+2026-06-20 16:05:48 | INFO | JT | Fitting linear regression model
+2026-06-20 16:05:48 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 16:05:48 | INFO | JT | Computing fitted values
+2026-06-20 16:05:48 | INFO | JT | Computing residuals
+2026-06-20 16:05:48 | INFO | JT | Creating scatter plot with fitted line
+2026-06-20 16:05:49 | INFO | JT | Creating residual plot
+2026-06-20 16:05:49 | INFO | JT | ========================
+2026-06-20 16:05:49 | INFO | JT | SUMMARY
+2026-06-20 16:05:49 | INFO | JT | ========================
+2026-06-20 16:05:49 | INFO | JT | Dataset: housing
+2026-06-20 16:05:49 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-20 16:05:49 | INFO | JT | Target  (y): SalePrice
+2026-06-20 16:05:49 | INFO | JT | Original rows: 2930
+2026-06-20 16:05:49 | INFO | JT | Model rows:    2930
+2026-06-20 16:05:49 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-20 16:05:49 | INFO | JT | ========================
