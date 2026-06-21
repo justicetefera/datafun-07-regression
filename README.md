@@ -53,6 +53,7 @@ The script loads the Ames Housing data and checks for missing values in the sele
 Rows missing the chosen feature or SalePrice are removed to ensure clean, consistent input for the model.
 
 **3. Build the feature matrix (X) and target vector (y)**
+
      - X contains the selected predictor (e.g., Gr Liv Area)
      - y contains the SalePrice values
 
@@ -72,9 +73,8 @@ The model finds the best‑fit line that minimizes prediction error.
 - A residual plot to check linearity and variance
 
 **8. Save results**:
-All plots are saved to docs/images/, and a summary is printed to the terminal.
+All plots are saved to `docs/images/`, and a summary is printed to the terminal.
 For data suggestions, please see [data/raw/README.md](data/raw/README.md).
-
 
 ## Command Reference
 
