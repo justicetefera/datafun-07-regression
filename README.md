@@ -10,7 +10,8 @@
 ## 📝 Project Overview
 This project introduces the core ideas of linear regression, a fundamental statistical technique used to model relationships between variables and make predictions based on data. In simple terms, linear regression fits a straight line through a cloud of data points in a way that best represents the overall trend.
 
-To explore these concepts in a real‑world context, this project applies simple linear regression to the well‑known Ames Housing dataset, which contains detailed information about nearly 3,000 residential properties sold in Ames, Iowa. The goal is to understand how specific home features influence sale price and to evaluate whether a straight‑line model is an appropriate description of those relationships.
+To explore these concepts in a real‑world context, this project applies simple linear regression to the well‑known Ames Housing dataset, which contains detailed information about nearly ~3,000 residential properties sold in Ames, Iowa. The goal is to understand how specific home features influence sale price and to evaluate whether a straight‑line model is an appropriate description of those relationships.
+
 Two regressions were completed:
 - ***Gr Liv Area → SalePrice***
 - ***Overall Qual → SalePrice***
@@ -45,32 +46,32 @@ This dataset is widely used in data science because it contains a mix of size‑
 ## 🔧 Process Overview
 This project follows a clear, repeatable workflow for performing simple linear regression:
 
-1. **Load the dataset**:
+**1. Load the dataset**:
 The script loads the Ames Housing data and checks for missing values in the selected feature and target.
 
-2. **Prepare the modeling view**:
+**2. Prepare the modeling view**:
 Rows missing the chosen feature or SalePrice are removed to ensure clean, consistent input for the model.
 
-3. **Build the feature matrix (X) and target vector (y)**
-- X contains the selected predictor (e.g., Gr Liv Area)
-- y contains the SalePrice values
+**3. Build the feature matrix (X) and target vector (y)**
+     - X contains the selected predictor (e.g., Gr Liv Area)
+     - y contains the SalePrice values
 
-4. **Fit a simple linear regression model**:
+**4. Fit a simple linear regression model**:
 The model finds the best‑fit line that minimizes prediction error.
 
-5. **Generate fitted values and residuals**:
+**5. Generate fitted values and residuals**:
 - Fitted values show the model’s predicted prices
 - Residuals show the difference between actual and predicted prices
 
-6. **Compute evaluation metrics**: Two key metrics are calculated:
+**6. Compute evaluation metrics**: Two key metrics are calculated:
 - **R²** — how much variation in SalePrice the model explains
 - **RMSE** — average prediction error in dollars
 
-7. **Create visualizations**: The script automatically generates:
+**7. Create visualizations**: The script automatically generates:
 - A scatter plot with the fitted regression line
 - A residual plot to check linearity and variance
 
-8. **Save results**:
+**8. Save results**:
 All plots are saved to docs/images/, and a summary is printed to the terminal.
 For data suggestions, please see [data/raw/README.md](data/raw/README.md).
 
@@ -196,6 +197,9 @@ The residuals plot for the Gr Liv Area model, shows how the model’s errors beh
 ### Scatter Plot with Regression Line
 ![Scatter With Line](docs/images/scatter_with_line.png)
 The scatter plot with the regression line for Gr Liv Area, illustrates how the fitted line captures the general upward trend between living area and sale price. Most points fall near the line, showing that the model captures the overall relationship, but the wider spread at larger square footage highlights the model’s limitations. This visual gives an intuitive sense of how well the model performs and where it begins to struggle.
+
+## 🎨 Note on Color Styling
+Some of the scatterplots in this project use red, white, and blue point colors. These colors were chosen purely for visual styling and aesthetic appeal. The color differences do not represent categories, groups, or additional variables in the dataset. All points carry the same meaning; the varied colors simply enhance readability and give the plots a distinctive visual identity without encoding extra information.
 
 ## Project Documentation
 
