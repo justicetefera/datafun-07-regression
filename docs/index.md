@@ -90,6 +90,21 @@ Once multiple models are built, it is helpful to compare them side‑by‑side u
 
 If residual plots show curvature or patterns that a straight line cannot capture, it may be appropriate to explore more flexible models. Techniques such as polynomial regression, decision trees, or random forests can model complex relationships without requiring strict linearity. While these models are more advanced, they can reveal structure in the data that simple linear regression misses. This step demonstrates awareness of modern modeling approaches and provides a path for future project expansion.
 
-See
+# Custom Project
+
+# 🧱Basis
+For this project, I began with the example regression workflow provided in the course, specifically the CO₂ case study that demonstrated how to load a dataset, prepare a modeling view, fit a linear regression model, compute fitted values, examine residuals, and generate visualizations. Using that workflow as a foundation, I applied the same structure to the Ames Housing dataset. My input data came from `data/raw/housing.csv`, which contains 2,930 rows and 83 columns describing residential properties in Ames, Iowa. I used the example script as a guide for organizing my functions, logging steps, and producing a complete regression analysis.
+
+# 🛠️Phase 4 Modifications
+For Phase 4, I made a small but meaningful technical modification to my regression script. I added a new function that computes R‑squared and RMSE using scikit‑learn’s `r2_score` and `mean_squared_error`. I chose this modification because the example script emphasized the importance of evaluating model performance, and adding these metrics made my analysis more complete. I also customized the scatter plot visuals by assigning red, white, and blue colors to the points, which improved readability and aligned with my preferred visualization style. I verified that the modification worked by running the script, checking that the metrics appeared in the logs, and confirming that the updated plots were saved correctly in the `docs/images` folder.
+
+# 🎯Phase 5 Custom Project
+For Phase 5, I extended the regression workflow to analyze two different predictors of home sale price in the Ames Housing dataset: above‑ground living area (`Gr Liv Area`) and overall quality rating (`Overall Qual`). I built a complete regression pipeline that included loading the data, preparing a modeling view, fitting the model, computing metrics, generating scatter and residual plots, and saving the visualizations. I recommend changing the example workflow by adding metric computation, saving plots automatically, and running multiple regressions within the same script, because these additions make the analysis more informative and easier to compare.
+
+In my results, I found that Overall Quality was a much stronger predictor of SalePrice than Gr Liv Area. The regression using Gr Liv Area produced an R‑squared of about 0.50, while the regression using Overall Quality produced an R‑squared of about 0.64. The residual plots also supported this conclusion: the residuals for Overall Quality were more randomly scattered around zero, indicating a better linear fit. From this project, I learned how different features can produce very different model performances and how important it is to evaluate both numerical metrics and visual diagnostics.
+
+In completing this project, I exercised nearly all the skills covered in the module: loading and cleaning data, building modeling views, constructing feature matrices, fitting regression models, computing performance metrics, generating visualizations, saving outputs, and writing documentation. These techniques can be applied to many future problems, such as predicting housing prices in other cities, analyzing relationships between economic indicators, or exploring correlations in any structured dataset.
+
+
 [⭐ **Workflow: Apply Example**](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 to get these projects running on your machine.
