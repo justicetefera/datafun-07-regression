@@ -7,6 +7,33 @@
 > Professional Python project: linear regression and predictive analytics.
 
 ## Project Goal
+## 🔵 Regression 1: Gr Liv Area → SalePrice
+
+| Metric | Value | Interpretation |
+| --- | --- | --- |
+| **R²** | 0.4995 | About 50 % of the variation in sale price is explained by above‑ground living area. That’s moderate — size matters, but other factors (quality, neighborhood, etc.) also influence price. |
+| **RMSE** | $56 504.88 | On average, predictions differ from actual sale prices by roughly $56 500. That’s a realistic spread for housing data. |
+
+### 🧠 Meaning
+- The scatterplot should show a clear upward trend — larger homes tend to cost more.
+- The residual plot likely shows a funnel shape (variance increases for larger homes).
+- Because residuals aren’t perfectly random, a straight line is a reasonable but imperfect description.
+- This model is useful for understanding general price trends, not precise predictions.
+
+
+### 🔵 Regression 2: Overall Qual → SalePrice
+
+| Metric | Value | Interpretation |
+| --- | --- | --- |
+| **R²** | 0.6388 | About 64 % of the variation in sale price is explained by overall quality rating — a strong linear relationship. |
+| **RMSE** | $48 002.35 | Average prediction error is around $48 000, smaller than the first model, meaning better fit. |
+
+### 🧠 Meaning
+- The fitted‑line plot should show a steep, clean upward trend — higher‑quality homes sell for more.
+- Residuals are likely more evenly scattered, meaning the linear model fits well.
+- A straight line is a fair description of this relationship.
+- This model is stronger and more reliable than the Gr Liv Area model.
+
 
 This project introduces **linear regression**, the process of
 fitting a model to data and using it to make predictions.

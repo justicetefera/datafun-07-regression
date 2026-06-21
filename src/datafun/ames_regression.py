@@ -1,4 +1,5 @@
-"""ames_regression.py - Regression Module (Ames Housing)
+"""
+ames_regression.py - Regression Module (Ames Housing)
 
 Author: Justice Tefera
 Date: 2026-06
@@ -7,6 +8,7 @@ Date: 2026-06
 # === IMPORTS ===
 
 import logging
+import math
 import random
 from typing import Final
 
@@ -15,6 +17,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
 
 # === LOGGER ===
 
@@ -100,7 +103,18 @@ def predict(model: LinearRegression, X: np.ndarray):
     return y_hat
 
 
-# === SECTION 7: EXAMINE FIT ===
+# === SECTION 7: METRICS (NEW) ===
+
+
+def compute_metrics(y: np.ndarray, y_hat: np.ndarray) -> tuple[float, float]:
+    r2 = r2_score(y, y_hat)
+    rmse = math.sqrt(mean_squared_error(y, y_hat))
+    LOG.info(f"R-squared: {r2:.4f}")
+    LOG.info(f"RMSE: {rmse:,.2f}")
+    return r2, rmse
+
+
+# === SECTION 8: EXAMINE FIT ===
 
 
 def examine_fit(
@@ -111,7 +125,7 @@ def examine_fit(
     return residuals
 
 
-# === SECTION 8: PLOTS ===
+# === SECTION 9: PLOTS ===
 
 
 def make_plots(
@@ -125,7 +139,6 @@ def make_plots(
     LOG.info("Creating scatter plot with fitted line")
     plt.figure()
 
-    # Random red, white, and blue dots
     colors_scatter = [
         random.choice(["#FF0000", "#FFFFFF", "#0000FF"]) for _ in range(len(df_model))
     ]
@@ -138,7 +151,6 @@ def make_plots(
         linewidths=0.3,
     )
 
-    # Fitted line (black)
     order = np.argsort(feature_values)
     plt.plot(feature_values[order], y_hat[order], color="black", linewidth=2)
 
@@ -152,7 +164,6 @@ def make_plots(
     LOG.info("Creating residual plot")
     plt.figure()
 
-    # Random red, white, and blue dots
     colors_resid = [
         random.choice(["#FF0000", "#FFFFFF", "#0000FF"]) for _ in range(len(df_model))
     ]
@@ -161,7 +172,6 @@ def make_plots(
         feature_values, residuals, c=colors_resid, edgecolors="black", linewidths=0.3
     )
 
-    # Horizontal line (black)
     plt.axhline(0, color="black", linewidth=2)
 
     plt.xlabel(FEATURE_LABEL)
@@ -171,7 +181,7 @@ def make_plots(
     plt.savefig("docs/images/residuals_plot.png", dpi=300, bbox_inches="tight")
 
 
-# === SECTION 9: SUMMARY ===
+# === SECTION 10: SUMMARY ===
 
 
 def summarize(
@@ -194,7 +204,7 @@ def summarize(
     LOG.info("========================")
 
 
-# === MAIN ===
+# === MAIN PIPELINE ===
 
 
 def main():
@@ -205,12 +215,80 @@ def main():
     X, y = build_x_and_y(df_model)
     model = fit_line(X, y)
     y_hat = predict(model, X)
+    compute_metrics(y, y_hat)
     residuals = examine_fit(model, X, y, y_hat)
     make_plots(df_model, y_hat, residuals)
     summarize(df, df_model, model)
 
-    plt.show()
 
+# === SECOND REGRESSION (Overall Qual) ===
+
+
+def run_overallqual_regression():
+    FEATURE_COL_2 = "Overall Qual"
+    FEATURE_LABEL_2 = "Overall Quality Rating (1–10)"
+
+    log_header(LOG, "REGRESSION: Overall Qual vs SalePrice")
+
+    df = load_data()
+    df_model = df.dropna(subset=[FEATURE_COL_2, TARGET_COL]).copy()
+
+    LOG.info(f"Original rows: {df.shape[0]}")
+    LOG.info(f"Model rows:    {df_model.shape[0]}")
+    LOG.info(f"Rows dropped:  {df.shape[0] - df_model.shape[0]}")
+
+    X = df_model[[FEATURE_COL_2]].to_numpy()
+    y = df_model[TARGET_COL].to_numpy()
+
+    model = LinearRegression()
+    model.fit(X, y)
+
+    slope = float(model.coef_[0])
+    intercept = float(model.intercept_)
+
+    LOG.info(
+        f"Fitted line: {TARGET_COL} = {slope:.6g} * {FEATURE_COL_2} + {intercept:.6g}"
+    )
+
+    y_hat = model.predict(X)
+    compute_metrics(y, y_hat)
+    residuals = y - y_hat
+
+    # Scatter plot
+    plt.figure()
+    plt.scatter(X, y, alpha=0.4, color="blue", edgecolors="black")
+    plt.plot(X, y_hat, color="red", linewidth=2)
+    plt.xlabel(FEATURE_LABEL_2)
+    plt.ylabel(TARGET_LABEL)
+    plt.title(f"{FEATURE_LABEL_2} vs {TARGET_LABEL}")
+    plt.savefig("docs/images/overallqual_saleprice_scatter.png", dpi=300)
+
+    # Residual plot
+    plt.figure()
+    plt.scatter(X, residuals, alpha=0.4, color="blue", edgecolors="black")
+    plt.axhline(0, color="red", linewidth=2)
+    plt.xlabel(FEATURE_LABEL_2)
+    plt.ylabel("Residuals")
+    plt.title(f"Residuals vs {FEATURE_LABEL_2}")
+    plt.savefig("docs/images/overallqual_saleprice_residuals.png", dpi=300)
+
+    LOG.info("========================")
+    LOG.info("SUMMARY")
+    LOG.info("========================")
+    LOG.info(f"Dataset: {DATASET_NAME}")
+    LOG.info(f"Feature (x): {FEATURE_COL_2}")
+    LOG.info(f"Target  (y): {TARGET_COL}")
+    LOG.info(f"Original rows: {df.shape[0]}")
+    LOG.info(f"Model rows:    {df_model.shape[0]}")
+    LOG.info(
+        f"Fitted line: {TARGET_COL} = {slope:.6g} * {FEATURE_COL_2} + {intercept:.6g}"
+    )
+    LOG.info("========================")
+
+
+# === RUN BOTH REGRESSIONS ===
 
 if __name__ == "__main__":
     main()
+    run_overallqual_regression()
+    plt.show()
