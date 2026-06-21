@@ -14,11 +14,13 @@ To explore these concepts in a real‑world context, this project applies simple
 Two regressions were completed:
 - ***Gr Liv Area → SalePrice***
 - ***Overall Qual → SalePrice***
+
 Each regression includes:
 - A fitted-line plot
 - A residual plot
 - R² and RMSE metrics
 - A summary of findings
+
 These results help determine whether a straight-line model is a fair description of the relationship between each feature and home sale price.
 
 ## 📌 How to Run the Project
@@ -43,34 +45,32 @@ This dataset is widely used in data science because it contains a mix of size‑
 ## 🔧 Process Overview
 This project follows a clear, repeatable workflow for performing simple linear regression:
 
-1. Load the dataset
+1. **Load the dataset**:
 The script loads the Ames Housing data and checks for missing values in the selected feature and target.
 
-2. Prepare the modeling view
+2. **Prepare the modeling view**:
 Rows missing the chosen feature or SalePrice are removed to ensure clean, consistent input for the model.
 
-3. Build the feature matrix (X) and target vector (y)
+3. **Build the feature matrix (X) and target vector (y)**
 - X contains the selected predictor (e.g., Gr Liv Area)
 - y contains the SalePrice values
 
-4. Fit a simple linear regression model
+4. **Fit a simple linear regression model**:
 The model finds the best‑fit line that minimizes prediction error.
 
-5. Generate fitted values and residuals
+5. **Generate fitted values and residuals**:
 - Fitted values show the model’s predicted prices
 - Residuals show the difference between actual and predicted prices
 
-6. Compute evaluation metrics
-Two key metrics are calculated:
+6. **Compute evaluation metrics**: Two key metrics are calculated:
 - **R²** — how much variation in SalePrice the model explains
 - **RMSE** — average prediction error in dollars
 
-7. Create visualizations
-The script automatically generates:
+7. **Create visualizations**: The script automatically generates:
 - A scatter plot with the fitted regression line
 - A residual plot to check linearity and variance
 
-8. Save results
+8. **Save results**:
 All plots are saved to docs/images/, and a summary is printed to the terminal.
 For data suggestions, please see [data/raw/README.md](data/raw/README.md).
 
@@ -179,22 +179,23 @@ git push -u origin main
 2026-06-21 04:16:58 | INFO | JT | ========================
 ```
 
-## Findings and Visuals
-## 📊 Visualizations
+## 📊 Visualizations and Findings
 
 ### Overall Quality vs Sale Price — Residuals
 ![Overall Quality Residuals](docs/images/overallqual_saleprice_residuals.png)
+The Overall Quality vs Sale Price residual plot, shows how far the model’s predictions deviate from the actual sale prices for each quality level. When the residuals cluster evenly around zero, the model is behaving well; when they drift upward or downward for certain quality ratings, it suggests the model may be over‑ or under‑predicting for those homes. This plot helps reveal whether the linear model is fair across the full range of quality scores.
 
 ### Overall Quality vs Sale Price — Scatter Plot
 ![Overall Quality Scatter](docs/images/overallqual_saleprice_scatter.png)
+Displays the direct relationship between a home’s quality rating and its sale price. The upward trend is clear and strong, showing that higher‑quality homes consistently sell for more. The spread of points widens at higher quality levels, which suggests that luxury homes vary more in price, but the overall pattern supports the use of a linear model for this feature.
 
 ### Residuals Plot
 ![Residuals Plot](docs/images/residuals_plot.png)
+The residuals plot for the Gr Liv Area model, shows how the model’s errors behave across the full range of living area values. The pattern reveals that prediction errors grow larger for bigger homes, which indicates heteroscedasticity. This means the model fits smaller and mid‑sized homes more consistently than very large ones. The plot helps explain why this regression has lower R² and higher RMSE compared to the Overall Quality model.
 
 ### Scatter Plot with Regression Line
 ![Scatter With Line](docs/images/scatter_with_line.png)
-
-
+The scatter plot with the regression line for Gr Liv Area, illustrates how the fitted line captures the general upward trend between living area and sale price. Most points fall near the line, showing that the model captures the overall relationship, but the wider spread at larger square footage highlights the model’s limitations. This visual gives an intuitive sense of how well the model performs and where it begins to struggle.
 
 ## Project Documentation
 
