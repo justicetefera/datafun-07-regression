@@ -12,8 +12,8 @@ This project introduces the core ideas of linear regression, a fundamental stati
 
 To explore these concepts in a real‑world context, this project applies simple linear regression to the well‑known Ames Housing dataset, which contains detailed information about nearly 3,000 residential properties sold in Ames, Iowa. The goal is to understand how specific home features influence sale price and to evaluate whether a straight‑line model is an appropriate description of those relationships.
 Two regressions were completed:
-***Gr Liv Area → SalePrice***
-***Overall Qual → SalePrice***
+- ***Gr Liv Area → SalePrice***
+- ***Overall Qual → SalePrice***
 Each regression includes:
 - A fitted-line plot
 - A residual plot
@@ -28,91 +28,52 @@ python src/datafun/ames_regression.py
 ```
 This script automatically runs both regressions and saves plots to: `docs/images/`
 
-## 📈 Regression 1: Gr Liv Area → SalePrice
-| Metric | Value | Interpretation |
-| --- | --- | --- |
-| **R²** | 0.4995 | About 50 % of the variation in sale price is explained by above‑ground living area. That’s moderate — size matters, but other factors (quality, neighborhood, etc.) also influence price. |
-| **RMSE** | $56 504.88 | On average, predictions differ from actual sale prices by roughly $56 500. That’s a realistic spread for housing data. |
+## 📊 About the Data
+The project uses the Ames Housing dataset, a well‑known real‑estate dataset containing 2,930 residential property sales from Ames, Iowa. Each row represents a single home sale, and each column describes a specific characteristic of the home.
+- A few examples of the 83 available features include:
+- Gr Liv Area — above‑ground living area (square feet)
+- Overall Qual — overall material and finish quality (1–10)
+- Year Built — year the home was constructed
+- Total Bsmt SF — total basement square footage
+- Garage Area — size of the garage
+- SalePrice — the target variable for predicting
 
-### Interpretation
-- The scatterplot should show a clear upward trend — larger homes tend to cost more.
-- The residual plot likely shows a funnel shape (variance increases for larger homes).
-- Because residuals aren’t perfectly random, a straight line is a reasonable but imperfect description.
-- This model is useful for understanding general price trends, not precise predictions.
+This dataset is widely used in data science because it contains a mix of size‑related, quality‑related, and age‑related features, making it ideal for practicing regression modeling.
 
-The relationship between above‑ground living area and sale price is positive and moderately strong. Larger homes tend to sell for more, and the fitted-line plot shows a clear upward trend.
+## 🔧 Process Overview
+This project follows a clear, repeatable workflow for performing simple linear regression:
 
-An R² of 0.4995 means that about 50% of the variation in sale price can be explained by the size of the home alone. This is meaningful, but it also indicates that other factors (quality, neighborhood, condition, etc.) play a major role.
+1. Load the dataset
+The script loads the Ames Housing data and checks for missing values in the selected feature and target.
 
-The RMSE of $56,504.88 indicates that predictions from this simple model typically differ from actual sale prices by around $56k. This is reasonable for housing data, where prices vary widely.
+2. Prepare the modeling view
+Rows missing the chosen feature or SalePrice are removed to ensure clean, consistent input for the model.
 
-## Residual Analysis
-The residual plot shows increasing spread as home size increases — a funnel shape. This suggests:
-- Variance is not constant (heteroscedasticity).
-- A straight line is a reasonable but imperfect description.
-- Larger homes have more unpredictable prices.
+3. Build the feature matrix (X) and target vector (y)
+- X contains the selected predictor (e.g., Gr Liv Area)
+- y contains the SalePrice values
 
-## Conclusion
-Gr Liv Area is a useful predictor of sale price, but the linear model does not capture all the complexity. This regression provides valuable insight but should be supplemented with additional features or transformations for improved accuracy.
+4. Fit a simple linear regression model
+The model finds the best‑fit line that minimizes prediction error.
 
-### 📈 Regression 2: Overall Qual → SalePrice
-| Metric | Value | Interpretation |
-| --- | --- | --- |
-| **R²** | 0.6388 | About 64 % of the variation in sale price is explained by overall quality rating — a strong linear relationship. |
-| **RMSE** | $48 002.35 | Average prediction error is around $48 000, smaller than the first model, meaning better fit. |
+5. Generate fitted values and residuals
+- Fitted values show the model’s predicted prices
+- Residuals show the difference between actual and predicted prices
 
-### Interpretation
-- The fitted‑line plot should show a steep, clean upward trend — higher‑quality homes sell for more.
-- Residuals are likely more evenly scattered, meaning the linear model fits well.
-- A straight line is a fair description of this relationship.
-- This model is stronger and more reliable than the Gr Liv Area model.
+6. Compute evaluation metrics
+Two key metrics are calculated:
+- **R²** — how much variation in SalePrice the model explains
+- **RMSE** — average prediction error in dollars
 
-Overall Quality is one of the strongest predictors of home sale price in the Ames dataset. The fitted-line plot shows a clear, steep upward trend: as the quality rating increases, sale price increases sharply.
+7. Create visualizations
+The script automatically generates:
+- A scatter plot with the fitted regression line
+- A residual plot to check linearity and variance
 
-An R² of 0.6388 means that about 64% of the variation in sale price can be explained by the quality rating alone. This is a strong linear relationship, especially for a single‑feature model.
-
-The RMSE of $48,002.35 is lower than the RMSE from the Gr Liv Area model, indicating that this regression produces more accurate predictions.
-
-## Residual Analysis
-The residuals appear more evenly scattered compared to the Gr Liv Area model. This suggests:
-- Variance is more consistent across quality levels
-- The linear model fits the data well
-- There is less curvature or funneling in the residuals
-This makes Overall Qual a better candidate for linear regression.
-
-## Conclusion
-Overall Quality is a strong, reliable predictor of sale price. A straight-line model is a fair and effective description of this relationship. This regression provides clearer insight and stronger predictive power than the Gr Liv Area model.
-
-## 📌 Next Steps for Further Analysis
-1. **Explore Additional Predictive Features**
-The Ames dataset contains many numerical variables that may have stronger or complementary relationships with SalePrice. Features such as Total Basement Area, Garage Area, 1st Floor SF, and Year Built often show meaningful linear patterns. Testing these variables individually can help identify which characteristics of a home contribute most to its market value. This step also helps determine whether size‑related features or age‑related features provide better predictive power.
-
-2. **Apply Transformations to Improve Linearity**
-Some relationships become more linear after applying mathematical transformations. For example, taking the logarithm of SalePrice can stabilize variance and reduce the impact of extreme values. Similarly, applying log or square‑root transformations to skewed features (like Gr Liv Area or Total Bsmt SF) can produce cleaner residual patterns. This step helps determine whether a straight‑line model is appropriate or whether the raw data needs adjustment.
-
-3. **Build Multivariate Regression Models**
-Simple linear regression examines one feature at a time, but home prices are influenced by multiple factors simultaneously. A multivariate model that includes both Gr Liv Area and Overall Qual, along with other strong predictors, can significantly improve accuracy. This step allows you to evaluate how features interact and how much each contributes when controlling for others. It also moves the project closer to real‑world predictive modeling.
-
-4. **Compare Models Using a Summary Table**
-Once multiple models are built, it is helpful to compare them side‑by‑side using metrics such as R², RMSE, and residual behavior. A summary table makes it easy to see which model performs best and why. This comparison also highlights trade‑offs between interpretability and predictive power. Including such a table strengthens the analytical depth of the project and provides a clear justification for model selection.
-
-5. **Investigate Non‑Linear or Tree‑Based Models**
-If residual plots show curvature or patterns that a straight line cannot capture, it may be appropriate to explore more flexible models. Techniques such as polynomial regression, decision trees, or random forests can model complex relationships without requiring strict linearity. While these models are more advanced, they can reveal structure in the data that simple linear regression misses. This step demonstrates awareness of modern modeling approaches and provides a path for future project expansion.
-
+8. Save results
+All plots are saved to docs/images/, and a summary is printed to the terminal.
 For data suggestions, please see [data/raw/README.md](data/raw/README.md).
 
-## Instructions
-
-Follow the
-[step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
-to complete:
-
-## Success
-```shell
-========================
-Executed successfully!
-========================
-```
 
 ## Command Reference
 
