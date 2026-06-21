@@ -80,19 +80,6 @@ For data suggestions, please see [data/raw/README.md](data/raw/README.md).
 <details>
 <summary>Show command reference</summary>
 
-### In a machine terminal (open in your `Repos` folder)
-
-After you get a copy of this repo in your own GitHub account,
-open a machine terminal in your `Repos` folder:
-
-```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/justicetefera/datafun-07-regression
-
-cd datafun-07-regression
-code .
-```
-
 ### In a VS Code terminal
 
 ```shell
@@ -128,7 +115,7 @@ git push -u origin main
 
 </details>
 
-## Script outcome
+## Script output
 
 ```shell
 2026-06-21 04:16:55 | INFO | JT | === RUN START ===
@@ -193,18 +180,23 @@ git push -u origin main
 ```
 
 ## Findings and Visuals
+## 📊 Visualizations
 
+### Overall Quality vs Sale Price — Residuals
+![Overall Quality Residuals](docs/images/overallqual_saleprice_residuals.png)
 
+### Overall Quality vs Sale Price — Scatter Plot
+![Overall Quality Scatter](docs/images/overallqual_saleprice_scatter.png)
 
-Update these figures to present interesting results from your custom project:
+### Residuals Plot
+![Residuals Plot](docs/images/residuals_plot.png)
 
+### Scatter Plot with Regression Line
+![Scatter With Line](docs/images/scatter_with_line.png)
 
-## World Data: Is there a linear relationship? How can you improve the analysis?
 
 
 ## Project Documentation
-
-Additional instructions, terms, and project notes:
 
 [docs/index.md](docs/index.md)
 
