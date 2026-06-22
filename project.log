@@ -1807,3 +1807,545 @@ write down what you conclude.
 2026-06-21 14:49:12 | INFO | JT | Model rows:    2930
 2026-06-21 14:49:12 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
 2026-06-21 14:49:12 | INFO | JT | ========================
+2026-06-22 15:00:11 | INFO | JT | === RUN START ===
+2026-06-22 15:00:11 | INFO | JT | project=JT
+2026-06-22 15:00:11 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:00:11 | INFO | JT | python=3.14.5
+2026-06-22 15:00:11 | INFO | JT | os=Windows 11
+2026-06-22 15:00:11 | INFO | JT | shell=powershell
+2026-06-22 15:00:11 | INFO | JT | cwd=.
+2026-06-22 15:00:11 | INFO | JT | github_actions=False
+2026-06-22 15:00:11 | INFO | JT | === RUN START ===
+2026-06-22 15:00:11 | INFO | JT | project=REGRESSION
+2026-06-22 15:00:11 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:00:11 | INFO | JT | python=3.14.5
+2026-06-22 15:00:11 | INFO | JT | os=Windows 11
+2026-06-22 15:00:11 | INFO | JT | shell=powershell
+2026-06-22 15:00:11 | INFO | JT | cwd=.
+2026-06-22 15:00:11 | INFO | JT | github_actions=False
+2026-06-22 15:00:11 | INFO | JT | Loading dataset: housing
+2026-06-22 15:00:12 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:00:12 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-22 15:00:12 | INFO | JT | Original rows: 2930
+2026-06-22 15:00:12 | INFO | JT | Model rows:    2930
+2026-06-22 15:00:12 | INFO | JT | Rows dropped:  0
+2026-06-22 15:00:12 | INFO | JT | Building feature matrix X and target vector y
+2026-06-22 15:00:12 | INFO | JT | Fitting linear regression model
+2026-06-22 15:00:12 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 15:00:12 | INFO | JT | Computing fitted values
+2026-06-22 15:00:12 | INFO | JT | R-squared: 0.4995
+2026-06-22 15:00:12 | INFO | JT | RMSE: 56,504.88
+2026-06-22 15:00:12 | INFO | JT | Computing residuals
+2026-06-22 15:00:12 | INFO | JT | Creating scatter plot with fitted line
+2026-06-22 15:00:17 | INFO | JT | Creating residual plot
+2026-06-22 15:00:17 | INFO | JT | ========================
+2026-06-22 15:00:17 | INFO | JT | SUMMARY
+2026-06-22 15:00:17 | INFO | JT | ========================
+2026-06-22 15:00:17 | INFO | JT | Dataset: housing
+2026-06-22 15:00:17 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-22 15:00:17 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:00:17 | INFO | JT | Original rows: 2930
+2026-06-22 15:00:17 | INFO | JT | Model rows:    2930
+2026-06-22 15:00:17 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 15:00:17 | INFO | JT | ========================
+2026-06-22 15:00:17 | INFO | JT | === RUN START ===
+2026-06-22 15:00:17 | INFO | JT | project=REGRESSION: Overall Qual vs SalePrice
+2026-06-22 15:00:17 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:00:17 | INFO | JT | python=3.14.5
+2026-06-22 15:00:17 | INFO | JT | os=Windows 11
+2026-06-22 15:00:17 | INFO | JT | shell=powershell
+2026-06-22 15:00:17 | INFO | JT | cwd=.
+2026-06-22 15:00:17 | INFO | JT | github_actions=False
+2026-06-22 15:00:17 | INFO | JT | Loading dataset: housing
+2026-06-22 15:00:17 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:00:17 | INFO | JT | Original rows: 2930
+2026-06-22 15:00:17 | INFO | JT | Model rows:    2930
+2026-06-22 15:00:17 | INFO | JT | Rows dropped:  0
+2026-06-22 15:00:17 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 15:00:17 | INFO | JT | R-squared: 0.6388
+2026-06-22 15:00:17 | INFO | JT | RMSE: 48,002.35
+2026-06-22 15:00:18 | INFO | JT | ========================
+2026-06-22 15:00:18 | INFO | JT | SUMMARY
+2026-06-22 15:00:18 | INFO | JT | ========================
+2026-06-22 15:00:18 | INFO | JT | Dataset: housing
+2026-06-22 15:00:18 | INFO | JT | Feature (x): Overall Qual
+2026-06-22 15:00:18 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:00:18 | INFO | JT | Original rows: 2930
+2026-06-22 15:00:18 | INFO | JT | Model rows:    2930
+2026-06-22 15:00:18 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 15:00:18 | INFO | JT | ========================
+2026-06-22 15:00:18 | INFO | JT | === RUN START ===
+2026-06-22 15:00:18 | INFO | JT | project=REGRESSION: Year Built vs SalePrice
+2026-06-22 15:00:18 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:00:18 | INFO | JT | python=3.14.5
+2026-06-22 15:00:18 | INFO | JT | os=Windows 11
+2026-06-22 15:00:18 | INFO | JT | shell=powershell
+2026-06-22 15:00:18 | INFO | JT | cwd=.
+2026-06-22 15:00:18 | INFO | JT | github_actions=False
+2026-06-22 15:00:18 | INFO | JT | Loading dataset: housing
+2026-06-22 15:00:18 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:03:31 | INFO | JT | === RUN START ===
+2026-06-22 15:03:31 | INFO | JT | project=JT
+2026-06-22 15:03:31 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:03:31 | INFO | JT | python=3.14.5
+2026-06-22 15:03:31 | INFO | JT | os=Windows 11
+2026-06-22 15:03:31 | INFO | JT | shell=powershell
+2026-06-22 15:03:31 | INFO | JT | cwd=.
+2026-06-22 15:03:31 | INFO | JT | github_actions=False
+2026-06-22 15:03:31 | INFO | JT | === RUN START ===
+2026-06-22 15:03:31 | INFO | JT | project=REGRESSION
+2026-06-22 15:03:31 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:03:31 | INFO | JT | python=3.14.5
+2026-06-22 15:03:31 | INFO | JT | os=Windows 11
+2026-06-22 15:03:31 | INFO | JT | shell=powershell
+2026-06-22 15:03:31 | INFO | JT | cwd=.
+2026-06-22 15:03:31 | INFO | JT | github_actions=False
+2026-06-22 15:03:31 | INFO | JT | Loading dataset: housing
+2026-06-22 15:03:32 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:03:32 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-22 15:03:32 | INFO | JT | Original rows: 2930
+2026-06-22 15:03:32 | INFO | JT | Model rows:    2930
+2026-06-22 15:03:32 | INFO | JT | Rows dropped:  0
+2026-06-22 15:03:32 | INFO | JT | Building feature matrix X and target vector y
+2026-06-22 15:03:32 | INFO | JT | Fitting linear regression model
+2026-06-22 15:03:32 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 15:03:32 | INFO | JT | Computing fitted values
+2026-06-22 15:03:32 | INFO | JT | R-squared: 0.4995
+2026-06-22 15:03:32 | INFO | JT | RMSE: 56,504.88
+2026-06-22 15:03:32 | INFO | JT | Computing residuals
+2026-06-22 15:03:32 | INFO | JT | Creating scatter plot with fitted line
+2026-06-22 15:03:32 | INFO | JT | Creating residual plot
+2026-06-22 15:03:33 | INFO | JT | ========================
+2026-06-22 15:03:33 | INFO | JT | SUMMARY
+2026-06-22 15:03:33 | INFO | JT | ========================
+2026-06-22 15:03:33 | INFO | JT | Dataset: housing
+2026-06-22 15:03:33 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-22 15:03:33 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:03:33 | INFO | JT | Original rows: 2930
+2026-06-22 15:03:33 | INFO | JT | Model rows:    2930
+2026-06-22 15:03:33 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 15:03:33 | INFO | JT | ========================
+2026-06-22 15:03:33 | INFO | JT | === RUN START ===
+2026-06-22 15:03:33 | INFO | JT | project=REGRESSION: Overall Qual vs SalePrice
+2026-06-22 15:03:33 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:03:33 | INFO | JT | python=3.14.5
+2026-06-22 15:03:33 | INFO | JT | os=Windows 11
+2026-06-22 15:03:33 | INFO | JT | shell=powershell
+2026-06-22 15:03:33 | INFO | JT | cwd=.
+2026-06-22 15:03:33 | INFO | JT | github_actions=False
+2026-06-22 15:03:33 | INFO | JT | Loading dataset: housing
+2026-06-22 15:03:33 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:03:33 | INFO | JT | Original rows: 2930
+2026-06-22 15:03:33 | INFO | JT | Model rows:    2930
+2026-06-22 15:03:33 | INFO | JT | Rows dropped:  0
+2026-06-22 15:03:33 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 15:03:33 | INFO | JT | R-squared: 0.6388
+2026-06-22 15:03:33 | INFO | JT | RMSE: 48,002.35
+2026-06-22 15:03:33 | INFO | JT | ========================
+2026-06-22 15:03:33 | INFO | JT | SUMMARY
+2026-06-22 15:03:33 | INFO | JT | ========================
+2026-06-22 15:03:33 | INFO | JT | Dataset: housing
+2026-06-22 15:03:33 | INFO | JT | Feature (x): Overall Qual
+2026-06-22 15:03:33 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:03:33 | INFO | JT | Original rows: 2930
+2026-06-22 15:03:33 | INFO | JT | Model rows:    2930
+2026-06-22 15:03:33 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 15:03:33 | INFO | JT | ========================
+2026-06-22 15:03:33 | INFO | JT | === RUN START ===
+2026-06-22 15:03:33 | INFO | JT | project=REGRESSION: Year Built vs SalePrice
+2026-06-22 15:03:33 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:03:33 | INFO | JT | python=3.14.5
+2026-06-22 15:03:33 | INFO | JT | os=Windows 11
+2026-06-22 15:03:33 | INFO | JT | shell=powershell
+2026-06-22 15:03:33 | INFO | JT | cwd=.
+2026-06-22 15:03:33 | INFO | JT | github_actions=False
+2026-06-22 15:03:33 | INFO | JT | Loading dataset: housing
+2026-06-22 15:03:33 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:03:33 | INFO | JT | Original rows: 2930
+2026-06-22 15:03:33 | INFO | JT | Model rows:    2930
+2026-06-22 15:03:33 | INFO | JT | Rows dropped:  0
+2026-06-22 15:03:33 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
+2026-06-22 15:03:33 | INFO | JT | R-squared: 0.3118
+2026-06-22 15:03:33 | INFO | JT | RMSE: 66,259.04
+2026-06-22 15:03:34 | INFO | JT | ========================
+2026-06-22 15:03:34 | INFO | JT | SUMMARY
+2026-06-22 15:03:34 | INFO | JT | ========================
+2026-06-22 15:03:34 | INFO | JT | Dataset: housing
+2026-06-22 15:03:34 | INFO | JT | Feature (x): Year Built
+2026-06-22 15:03:34 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:03:34 | INFO | JT | Original rows: 2930
+2026-06-22 15:03:34 | INFO | JT | Model rows:    2930
+2026-06-22 15:03:34 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
+2026-06-22 15:03:34 | INFO | JT | ========================
+2026-06-22 15:06:13 | INFO | JT | === RUN START ===
+2026-06-22 15:06:13 | INFO | JT | project=JT
+2026-06-22 15:06:13 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:06:13 | INFO | JT | python=3.14.5
+2026-06-22 15:06:13 | INFO | JT | os=Windows 11
+2026-06-22 15:06:13 | INFO | JT | shell=powershell
+2026-06-22 15:06:13 | INFO | JT | cwd=.
+2026-06-22 15:06:13 | INFO | JT | github_actions=False
+2026-06-22 15:06:13 | INFO | JT | === RUN START ===
+2026-06-22 15:06:13 | INFO | JT | project=REGRESSION
+2026-06-22 15:06:13 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:06:13 | INFO | JT | python=3.14.5
+2026-06-22 15:06:13 | INFO | JT | os=Windows 11
+2026-06-22 15:06:13 | INFO | JT | shell=powershell
+2026-06-22 15:06:13 | INFO | JT | cwd=.
+2026-06-22 15:06:13 | INFO | JT | github_actions=False
+2026-06-22 15:06:13 | INFO | JT | Loading dataset: housing
+2026-06-22 15:06:13 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:06:13 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-22 15:06:13 | INFO | JT | Original rows: 2930
+2026-06-22 15:06:13 | INFO | JT | Model rows:    2930
+2026-06-22 15:06:13 | INFO | JT | Rows dropped:  0
+2026-06-22 15:06:13 | INFO | JT | Building feature matrix X and target vector y
+2026-06-22 15:06:13 | INFO | JT | Fitting linear regression model
+2026-06-22 15:06:13 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 15:06:13 | INFO | JT | Computing fitted values
+2026-06-22 15:06:13 | INFO | JT | R-squared: 0.4995
+2026-06-22 15:06:13 | INFO | JT | RMSE: 56,504.88
+2026-06-22 15:06:13 | INFO | JT | Computing residuals
+2026-06-22 15:06:13 | INFO | JT | Creating scatter plot with fitted line
+2026-06-22 15:06:14 | INFO | JT | Creating residual plot
+2026-06-22 15:06:14 | INFO | JT | ========================
+2026-06-22 15:06:14 | INFO | JT | SUMMARY
+2026-06-22 15:06:14 | INFO | JT | ========================
+2026-06-22 15:06:14 | INFO | JT | Dataset: housing
+2026-06-22 15:06:14 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-22 15:06:14 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:06:14 | INFO | JT | Original rows: 2930
+2026-06-22 15:06:14 | INFO | JT | Model rows:    2930
+2026-06-22 15:06:14 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 15:06:14 | INFO | JT | ========================
+2026-06-22 15:06:14 | INFO | JT | === RUN START ===
+2026-06-22 15:06:14 | INFO | JT | project=REGRESSION: Overall Qual vs SalePrice
+2026-06-22 15:06:14 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:06:14 | INFO | JT | python=3.14.5
+2026-06-22 15:06:14 | INFO | JT | os=Windows 11
+2026-06-22 15:06:14 | INFO | JT | shell=powershell
+2026-06-22 15:06:14 | INFO | JT | cwd=.
+2026-06-22 15:06:14 | INFO | JT | github_actions=False
+2026-06-22 15:06:14 | INFO | JT | Loading dataset: housing
+2026-06-22 15:06:14 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:06:14 | INFO | JT | Original rows: 2930
+2026-06-22 15:06:14 | INFO | JT | Model rows:    2930
+2026-06-22 15:06:14 | INFO | JT | Rows dropped:  0
+2026-06-22 15:06:14 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 15:06:14 | INFO | JT | R-squared: 0.6388
+2026-06-22 15:06:14 | INFO | JT | RMSE: 48,002.35
+2026-06-22 15:06:15 | INFO | JT | ========================
+2026-06-22 15:06:15 | INFO | JT | SUMMARY
+2026-06-22 15:06:15 | INFO | JT | ========================
+2026-06-22 15:06:15 | INFO | JT | Dataset: housing
+2026-06-22 15:06:15 | INFO | JT | Feature (x): Overall Qual
+2026-06-22 15:06:15 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:06:15 | INFO | JT | Original rows: 2930
+2026-06-22 15:06:15 | INFO | JT | Model rows:    2930
+2026-06-22 15:06:15 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 15:06:15 | INFO | JT | ========================
+2026-06-22 15:06:15 | INFO | JT | === RUN START ===
+2026-06-22 15:06:15 | INFO | JT | project=REGRESSION: Year Built vs SalePrice
+2026-06-22 15:06:15 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:06:15 | INFO | JT | python=3.14.5
+2026-06-22 15:06:15 | INFO | JT | os=Windows 11
+2026-06-22 15:06:15 | INFO | JT | shell=powershell
+2026-06-22 15:06:15 | INFO | JT | cwd=.
+2026-06-22 15:06:15 | INFO | JT | github_actions=False
+2026-06-22 15:06:15 | INFO | JT | Loading dataset: housing
+2026-06-22 15:06:15 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:06:15 | INFO | JT | Original rows: 2930
+2026-06-22 15:06:15 | INFO | JT | Model rows:    2930
+2026-06-22 15:06:15 | INFO | JT | Rows dropped:  0
+2026-06-22 15:06:15 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
+2026-06-22 15:06:15 | INFO | JT | R-squared: 0.3118
+2026-06-22 15:06:15 | INFO | JT | RMSE: 66,259.04
+2026-06-22 15:06:16 | INFO | JT | ========================
+2026-06-22 15:06:16 | INFO | JT | SUMMARY
+2026-06-22 15:06:16 | INFO | JT | ========================
+2026-06-22 15:06:16 | INFO | JT | Dataset: housing
+2026-06-22 15:06:16 | INFO | JT | Feature (x): Year Built
+2026-06-22 15:06:16 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:06:16 | INFO | JT | Original rows: 2930
+2026-06-22 15:06:16 | INFO | JT | Model rows:    2930
+2026-06-22 15:06:16 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
+2026-06-22 15:06:16 | INFO | JT | ========================
+2026-06-22 15:36:38 | INFO | JT | === RUN START ===
+2026-06-22 15:36:38 | INFO | JT | project=JT
+2026-06-22 15:36:38 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:36:38 | INFO | JT | python=3.14.5
+2026-06-22 15:36:38 | INFO | JT | os=Windows 11
+2026-06-22 15:36:38 | INFO | JT | shell=powershell
+2026-06-22 15:36:38 | INFO | JT | cwd=.
+2026-06-22 15:36:38 | INFO | JT | github_actions=False
+2026-06-22 15:36:38 | INFO | JT | === RUN START ===
+2026-06-22 15:36:38 | INFO | JT | project=REGRESSION
+2026-06-22 15:36:38 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:36:38 | INFO | JT | python=3.14.5
+2026-06-22 15:36:38 | INFO | JT | os=Windows 11
+2026-06-22 15:36:38 | INFO | JT | shell=powershell
+2026-06-22 15:36:38 | INFO | JT | cwd=.
+2026-06-22 15:36:38 | INFO | JT | github_actions=False
+2026-06-22 15:36:38 | INFO | JT | Loading dataset: housing
+2026-06-22 15:36:38 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:36:38 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-22 15:36:38 | INFO | JT | Original rows: 2930
+2026-06-22 15:36:38 | INFO | JT | Model rows:    2930
+2026-06-22 15:36:38 | INFO | JT | Rows dropped:  0
+2026-06-22 15:36:38 | INFO | JT | Building feature matrix X and target vector y
+2026-06-22 15:36:38 | INFO | JT | Fitting linear regression model
+2026-06-22 15:36:38 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 15:36:38 | INFO | JT | Computing fitted values
+2026-06-22 15:36:38 | INFO | JT | R-squared: 0.4995
+2026-06-22 15:36:38 | INFO | JT | RMSE: 56,504.88
+2026-06-22 15:36:38 | INFO | JT | Computing residuals
+2026-06-22 15:36:38 | INFO | JT | Creating scatter plot with fitted line
+2026-06-22 15:36:39 | INFO | JT | Creating residual plot
+2026-06-22 15:36:39 | INFO | JT | ========================
+2026-06-22 15:36:39 | INFO | JT | SUMMARY
+2026-06-22 15:36:39 | INFO | JT | ========================
+2026-06-22 15:36:39 | INFO | JT | Dataset: housing
+2026-06-22 15:36:39 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-22 15:36:39 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:36:39 | INFO | JT | Original rows: 2930
+2026-06-22 15:36:39 | INFO | JT | Model rows:    2930
+2026-06-22 15:36:39 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 15:36:39 | INFO | JT | ========================
+2026-06-22 15:36:39 | INFO | JT | === RUN START ===
+2026-06-22 15:36:39 | INFO | JT | project=REGRESSION: Overall Qual vs SalePrice
+2026-06-22 15:36:39 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:36:39 | INFO | JT | python=3.14.5
+2026-06-22 15:36:39 | INFO | JT | os=Windows 11
+2026-06-22 15:36:39 | INFO | JT | shell=powershell
+2026-06-22 15:36:39 | INFO | JT | cwd=.
+2026-06-22 15:36:39 | INFO | JT | github_actions=False
+2026-06-22 15:36:39 | INFO | JT | Loading dataset: housing
+2026-06-22 15:36:39 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:36:39 | INFO | JT | Original rows: 2930
+2026-06-22 15:36:39 | INFO | JT | Model rows:    2930
+2026-06-22 15:36:39 | INFO | JT | Rows dropped:  0
+2026-06-22 15:36:39 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 15:36:39 | INFO | JT | R-squared: 0.6388
+2026-06-22 15:36:39 | INFO | JT | RMSE: 48,002.35
+2026-06-22 15:36:40 | INFO | JT | ========================
+2026-06-22 15:36:40 | INFO | JT | SUMMARY
+2026-06-22 15:36:40 | INFO | JT | ========================
+2026-06-22 15:36:40 | INFO | JT | Dataset: housing
+2026-06-22 15:36:40 | INFO | JT | Feature (x): Overall Qual
+2026-06-22 15:36:40 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:36:40 | INFO | JT | Original rows: 2930
+2026-06-22 15:36:40 | INFO | JT | Model rows:    2930
+2026-06-22 15:36:40 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 15:36:40 | INFO | JT | ========================
+2026-06-22 15:36:40 | INFO | JT | === RUN START ===
+2026-06-22 15:36:40 | INFO | JT | project=REGRESSION: Year Built vs SalePrice
+2026-06-22 15:36:40 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:36:40 | INFO | JT | python=3.14.5
+2026-06-22 15:36:40 | INFO | JT | os=Windows 11
+2026-06-22 15:36:40 | INFO | JT | shell=powershell
+2026-06-22 15:36:40 | INFO | JT | cwd=.
+2026-06-22 15:36:40 | INFO | JT | github_actions=False
+2026-06-22 15:36:40 | INFO | JT | Loading dataset: housing
+2026-06-22 15:36:40 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:36:40 | INFO | JT | Original rows: 2930
+2026-06-22 15:36:40 | INFO | JT | Model rows:    2930
+2026-06-22 15:36:40 | INFO | JT | Rows dropped:  0
+2026-06-22 15:36:40 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
+2026-06-22 15:36:40 | INFO | JT | R-squared: 0.3118
+2026-06-22 15:36:40 | INFO | JT | RMSE: 66,259.04
+2026-06-22 15:36:41 | INFO | JT | ========================
+2026-06-22 15:36:41 | INFO | JT | SUMMARY
+2026-06-22 15:36:41 | INFO | JT | ========================
+2026-06-22 15:36:41 | INFO | JT | Dataset: housing
+2026-06-22 15:36:41 | INFO | JT | Feature (x): Year Built
+2026-06-22 15:36:41 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:36:41 | INFO | JT | Original rows: 2930
+2026-06-22 15:36:41 | INFO | JT | Model rows:    2930
+2026-06-22 15:36:41 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
+2026-06-22 15:36:41 | INFO | JT | ========================
+2026-06-22 15:37:43 | INFO | JT | === RUN START ===
+2026-06-22 15:37:43 | INFO | JT | project=JT
+2026-06-22 15:37:43 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:37:43 | INFO | JT | python=3.14.5
+2026-06-22 15:37:43 | INFO | JT | os=Windows 11
+2026-06-22 15:37:43 | INFO | JT | shell=powershell
+2026-06-22 15:37:43 | INFO | JT | cwd=.
+2026-06-22 15:37:43 | INFO | JT | github_actions=False
+2026-06-22 15:37:43 | INFO | JT | === RUN START ===
+2026-06-22 15:37:43 | INFO | JT | project=REGRESSION
+2026-06-22 15:37:43 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:37:43 | INFO | JT | python=3.14.5
+2026-06-22 15:37:43 | INFO | JT | os=Windows 11
+2026-06-22 15:37:43 | INFO | JT | shell=powershell
+2026-06-22 15:37:43 | INFO | JT | cwd=.
+2026-06-22 15:37:43 | INFO | JT | github_actions=False
+2026-06-22 15:37:43 | INFO | JT | Loading dataset: housing
+2026-06-22 15:37:43 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:37:43 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-22 15:37:43 | INFO | JT | Original rows: 2930
+2026-06-22 15:37:43 | INFO | JT | Model rows:    2930
+2026-06-22 15:37:43 | INFO | JT | Rows dropped:  0
+2026-06-22 15:37:43 | INFO | JT | Building feature matrix X and target vector y
+2026-06-22 15:37:43 | INFO | JT | Fitting linear regression model
+2026-06-22 15:37:43 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 15:37:43 | INFO | JT | Computing fitted values
+2026-06-22 15:37:43 | INFO | JT | R-squared: 0.4995
+2026-06-22 15:37:43 | INFO | JT | RMSE: 56,504.88
+2026-06-22 15:37:43 | INFO | JT | Computing residuals
+2026-06-22 15:37:43 | INFO | JT | Creating scatter plot with fitted line
+2026-06-22 15:37:44 | INFO | JT | Creating residual plot
+2026-06-22 15:37:44 | INFO | JT | ========================
+2026-06-22 15:37:44 | INFO | JT | SUMMARY
+2026-06-22 15:37:44 | INFO | JT | ========================
+2026-06-22 15:37:44 | INFO | JT | Dataset: housing
+2026-06-22 15:37:44 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-22 15:37:44 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:37:44 | INFO | JT | Original rows: 2930
+2026-06-22 15:37:44 | INFO | JT | Model rows:    2930
+2026-06-22 15:37:44 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 15:37:44 | INFO | JT | ========================
+2026-06-22 15:37:44 | INFO | JT | === RUN START ===
+2026-06-22 15:37:44 | INFO | JT | project=REGRESSION: Overall Qual vs SalePrice
+2026-06-22 15:37:44 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:37:44 | INFO | JT | python=3.14.5
+2026-06-22 15:37:44 | INFO | JT | os=Windows 11
+2026-06-22 15:37:44 | INFO | JT | shell=powershell
+2026-06-22 15:37:44 | INFO | JT | cwd=.
+2026-06-22 15:37:44 | INFO | JT | github_actions=False
+2026-06-22 15:37:44 | INFO | JT | Loading dataset: housing
+2026-06-22 15:37:44 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:37:44 | INFO | JT | Original rows: 2930
+2026-06-22 15:37:44 | INFO | JT | Model rows:    2930
+2026-06-22 15:37:44 | INFO | JT | Rows dropped:  0
+2026-06-22 15:37:44 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 15:37:44 | INFO | JT | R-squared: 0.6388
+2026-06-22 15:37:44 | INFO | JT | RMSE: 48,002.35
+2026-06-22 15:37:45 | INFO | JT | ========================
+2026-06-22 15:37:45 | INFO | JT | SUMMARY
+2026-06-22 15:37:45 | INFO | JT | ========================
+2026-06-22 15:37:45 | INFO | JT | Dataset: housing
+2026-06-22 15:37:45 | INFO | JT | Feature (x): Overall Qual
+2026-06-22 15:37:45 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:37:45 | INFO | JT | Original rows: 2930
+2026-06-22 15:37:45 | INFO | JT | Model rows:    2930
+2026-06-22 15:37:45 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 15:37:45 | INFO | JT | ========================
+2026-06-22 15:37:45 | INFO | JT | === RUN START ===
+2026-06-22 15:37:45 | INFO | JT | project=REGRESSION: Year Built vs SalePrice
+2026-06-22 15:37:45 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 15:37:45 | INFO | JT | python=3.14.5
+2026-06-22 15:37:45 | INFO | JT | os=Windows 11
+2026-06-22 15:37:45 | INFO | JT | shell=powershell
+2026-06-22 15:37:45 | INFO | JT | cwd=.
+2026-06-22 15:37:45 | INFO | JT | github_actions=False
+2026-06-22 15:37:45 | INFO | JT | Loading dataset: housing
+2026-06-22 15:37:45 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 15:37:45 | INFO | JT | Original rows: 2930
+2026-06-22 15:37:45 | INFO | JT | Model rows:    2930
+2026-06-22 15:37:45 | INFO | JT | Rows dropped:  0
+2026-06-22 15:37:45 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
+2026-06-22 15:37:45 | INFO | JT | R-squared: 0.3118
+2026-06-22 15:37:45 | INFO | JT | RMSE: 66,259.04
+2026-06-22 15:37:46 | INFO | JT | ========================
+2026-06-22 15:37:46 | INFO | JT | SUMMARY
+2026-06-22 15:37:46 | INFO | JT | ========================
+2026-06-22 15:37:46 | INFO | JT | Dataset: housing
+2026-06-22 15:37:46 | INFO | JT | Feature (x): Year Built
+2026-06-22 15:37:46 | INFO | JT | Target  (y): SalePrice
+2026-06-22 15:37:46 | INFO | JT | Original rows: 2930
+2026-06-22 15:37:46 | INFO | JT | Model rows:    2930
+2026-06-22 15:37:46 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
+2026-06-22 15:37:46 | INFO | JT | ========================
+2026-06-22 16:00:20 | INFO | JT | === RUN START ===
+2026-06-22 16:00:20 | INFO | JT | project=JT
+2026-06-22 16:00:20 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 16:00:20 | INFO | JT | python=3.14.5
+2026-06-22 16:00:20 | INFO | JT | os=Windows 11
+2026-06-22 16:00:20 | INFO | JT | shell=powershell
+2026-06-22 16:00:20 | INFO | JT | cwd=.
+2026-06-22 16:00:20 | INFO | JT | github_actions=False
+2026-06-22 16:00:20 | INFO | JT | === RUN START ===
+2026-06-22 16:00:20 | INFO | JT | project=REGRESSION
+2026-06-22 16:00:20 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 16:00:20 | INFO | JT | python=3.14.5
+2026-06-22 16:00:20 | INFO | JT | os=Windows 11
+2026-06-22 16:00:20 | INFO | JT | shell=powershell
+2026-06-22 16:00:20 | INFO | JT | cwd=.
+2026-06-22 16:00:20 | INFO | JT | github_actions=False
+2026-06-22 16:00:20 | INFO | JT | Loading dataset: housing
+2026-06-22 16:00:20 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 16:00:20 | INFO | JT | Creating modeling view (dropping rows missing feature or target)
+2026-06-22 16:00:20 | INFO | JT | Original rows: 2930
+2026-06-22 16:00:20 | INFO | JT | Model rows:    2930
+2026-06-22 16:00:20 | INFO | JT | Rows dropped:  0
+2026-06-22 16:00:20 | INFO | JT | Building feature matrix X and target vector y
+2026-06-22 16:00:20 | INFO | JT | Fitting linear regression model
+2026-06-22 16:00:20 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 16:00:20 | INFO | JT | Computing fitted values
+2026-06-22 16:00:20 | INFO | JT | R-squared: 0.4995
+2026-06-22 16:00:20 | INFO | JT | RMSE: 56,504.88
+2026-06-22 16:00:20 | INFO | JT | Computing residuals
+2026-06-22 16:00:20 | INFO | JT | Creating scatter plot with fitted line
+2026-06-22 16:00:23 | INFO | JT | Creating residual plot
+2026-06-22 16:00:24 | INFO | JT | ========================
+2026-06-22 16:00:24 | INFO | JT | SUMMARY
+2026-06-22 16:00:24 | INFO | JT | ========================
+2026-06-22 16:00:24 | INFO | JT | Dataset: housing
+2026-06-22 16:00:24 | INFO | JT | Feature (x): Gr Liv Area
+2026-06-22 16:00:24 | INFO | JT | Target  (y): SalePrice
+2026-06-22 16:00:24 | INFO | JT | Original rows: 2930
+2026-06-22 16:00:24 | INFO | JT | Model rows:    2930
+2026-06-22 16:00:24 | INFO | JT | Fitted line: SalePrice = 111.694 * Gr Liv Area + 13289.6
+2026-06-22 16:00:24 | INFO | JT | ========================
+2026-06-22 16:00:24 | INFO | JT | === RUN START ===
+2026-06-22 16:00:24 | INFO | JT | project=REGRESSION: Overall Qual vs SalePrice
+2026-06-22 16:00:24 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 16:00:24 | INFO | JT | python=3.14.5
+2026-06-22 16:00:24 | INFO | JT | os=Windows 11
+2026-06-22 16:00:24 | INFO | JT | shell=powershell
+2026-06-22 16:00:24 | INFO | JT | cwd=.
+2026-06-22 16:00:24 | INFO | JT | github_actions=False
+2026-06-22 16:00:24 | INFO | JT | Loading dataset: housing
+2026-06-22 16:00:24 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 16:00:24 | INFO | JT | Original rows: 2930
+2026-06-22 16:00:24 | INFO | JT | Model rows:    2930
+2026-06-22 16:00:24 | INFO | JT | Rows dropped:  0
+2026-06-22 16:00:24 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 16:00:24 | INFO | JT | R-squared: 0.6388
+2026-06-22 16:00:24 | INFO | JT | RMSE: 48,002.35
+2026-06-22 16:00:25 | INFO | JT | ========================
+2026-06-22 16:00:25 | INFO | JT | SUMMARY
+2026-06-22 16:00:25 | INFO | JT | ========================
+2026-06-22 16:00:25 | INFO | JT | Dataset: housing
+2026-06-22 16:00:25 | INFO | JT | Feature (x): Overall Qual
+2026-06-22 16:00:25 | INFO | JT | Target  (y): SalePrice
+2026-06-22 16:00:25 | INFO | JT | Original rows: 2930
+2026-06-22 16:00:25 | INFO | JT | Model rows:    2930
+2026-06-22 16:00:25 | INFO | JT | Fitted line: SalePrice = 45251 * Overall Qual + -95003.6
+2026-06-22 16:00:25 | INFO | JT | ========================
+2026-06-22 16:00:25 | INFO | JT | === RUN START ===
+2026-06-22 16:00:25 | INFO | JT | project=REGRESSION: Year Built vs SalePrice
+2026-06-22 16:00:25 | INFO | JT | repo_dir=datafun-07-regression
+2026-06-22 16:00:25 | INFO | JT | python=3.14.5
+2026-06-22 16:00:25 | INFO | JT | os=Windows 11
+2026-06-22 16:00:25 | INFO | JT | shell=powershell
+2026-06-22 16:00:25 | INFO | JT | cwd=.
+2026-06-22 16:00:25 | INFO | JT | github_actions=False
+2026-06-22 16:00:25 | INFO | JT | Loading dataset: housing
+2026-06-22 16:00:25 | INFO | JT | Loaded: 2930 rows, 83 columns
+2026-06-22 16:00:25 | INFO | JT | Original rows: 2930
+2026-06-22 16:00:25 | INFO | JT | Model rows:    2930
+2026-06-22 16:00:25 | INFO | JT | Rows dropped:  0
+2026-06-22 16:00:25 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
+2026-06-22 16:00:25 | INFO | JT | R-squared: 0.3118
+2026-06-22 16:00:25 | INFO | JT | RMSE: 66,259.04
+2026-06-22 16:00:25 | INFO | JT | ========================
+2026-06-22 16:00:25 | INFO | JT | SUMMARY
+2026-06-22 16:00:25 | INFO | JT | ========================
+2026-06-22 16:00:25 | INFO | JT | Dataset: housing
+2026-06-22 16:00:25 | INFO | JT | Feature (x): Year Built
+2026-06-22 16:00:25 | INFO | JT | Target  (y): SalePrice
+2026-06-22 16:00:25 | INFO | JT | Original rows: 2930
+2026-06-22 16:00:25 | INFO | JT | Model rows:    2930
+2026-06-22 16:00:25 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
+2026-06-22 16:00:25 | INFO | JT | ========================

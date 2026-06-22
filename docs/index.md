@@ -5,90 +5,101 @@ Using the Ames Housing dataset (≈2,930 homes), the project examines how indivi
 ## 📈Regression 1: Gr Liv Area → SalePrice
 | Metric | Value | Interpretation |
 | --- | --- | --- |
-| **R²** | 0.4995 | About 50 % of the variation in sale price is explained by above‑ground living area. That’s moderate — size matters, but other factors (quality, neighborhood, etc.) also influence price. |
-| **RMSE** | $56 504.88 | On average, predictions differ from actual sale prices by roughly $56 500. That’s a realistic spread for housing data. |
+| **R²** | 0.4995 | About 50% of the variation in sale price is explained by above‑ground living area — a moderate linear relationship. |
+| **RMSE** | $56 504.88 | Predictions differ from actual sale prices by roughly $56k on average, a realistic spread for housing data. |
 
 ### 🔎Interpretation
-- The scatterplot should show a clear upward trend — larger homes tend to cost more.
-- The residual plot likely shows a funnel shape (variance increases for larger homes).
-- Because residuals aren’t perfectly random, a straight line is a reasonable but imperfect description.
-- This model is useful for understanding general price trends, not precise predictions.
+The fitted‑line plot shows a clear upward trend: larger homes tend to sell for more. This relationship is meaningful but not perfect. The residual plot displays a funnel shape, where prediction errors increase for larger homes. This indicates heteroscedasticity — the variance of sale prices grows as square footage increases.
 
-The relationship between above‑ground living area and sale price is positive and moderately strong. Larger homes tend to sell for more, and the fitted-line plot shows a clear upward trend.
-
-An R² of 0.4995 means that about 50% of the variation in sale price can be explained by the size of the home alone. This is meaningful, but it also indicates that other factors (quality, neighborhood, condition, etc.) play a major role.
-
-The RMSE of $56,504.88 indicates that predictions from this simple model typically differ from actual sale prices by around $56k. This is reasonable for housing data, where prices vary widely.
+This model captures the general trend that size influences price, but it cannot fully account for the wide variability among large homes. Factors such as quality, neighborhood, renovations, and lot size also play major roles. As a result, the linear model is useful for understanding broad pricing patterns but is not highly precise for individual predictions.
 
 ## 📉Residual Analysis
-The residual plot shows increasing spread as home size increases — a funnel shape. This suggests:
-- Variance is not constant (heteroscedasticity).
-- A straight line is a reasonable but imperfect description.
-- Larger homes have more unpredictable prices.
+The residual plot reveals:
+- **Increasing spread** as home size increases
+- **Non‑constant variance**, suggesting heteroscedasticity
+- **Greater unpredictability** among large homes
 
+This means:
+
+- A straight line is a reasonable but imperfect fit
+- Size alone cannot fully explain price differences
+- Additional features would improve predictive accuracy
 
 ### 📈Regression 2: Overall Qual → SalePrice
 | Metric | Value | Interpretation |
 | --- | --- | --- |
-| **R²** | 0.6388 | About 64 % of the variation in sale price is explained by overall quality rating — a strong linear relationship. |
-| **RMSE** | $48 002.35 | Average prediction error is around $48 000, smaller than the first model, meaning better fit. |
+| **R²** | 0.6388 | About 64% of the variation in sale price is explained by overall quality — a strong linear relationship. |
+| **RMSE** | $48 002.35 | Predictions differ from actual sale prices by about $48k on average, indicating better accuracy than the Gr Liv Area model. |
 
 ### 🔎Interpretation
-- The fitted‑line plot should show a steep, clean upward trend — higher‑quality homes sell for more.
-- Residuals are likely more evenly scattered, meaning the linear model fits well.
-- A straight line is a fair description of this relationship.
-- This model is stronger and more reliable than the Gr Liv Area model.
+Overall Quality is one of the strongest predictors of home sale price in the Ames dataset. The fitted‑line plot shows a steep, clean upward trend: higher‑quality homes consistently sell for more. Compared to Gr Liv Area, this relationship is tighter, more linear, and more stable.
 
-Overall Quality is one of the strongest predictors of home sale price in the Ames dataset. The fitted-line plot shows a clear, steep upward trend: as the quality rating increases, sale price increases sharply.
-
-An R² of 0.6388 means that about 64% of the variation in sale price can be explained by the quality rating alone. This is a strong linear relationship, especially for a single‑feature model.
-
-The RMSE of $48,002.35 is lower than the RMSE from the Gr Liv Area model, indicating that this regression produces more accurate predictions.
+The residuals are more evenly scattered around zero, indicating that the linear model fits this predictor well. Buyers place significant value on materials, craftsmanship, and finish level, which explains why this feature produces the highest R² among the three regressions.
 
 ## 📉Residual Analysis
-The residuals appear more evenly scattered compared to the Gr Liv Area model. This suggests:
-- Variance is more consistent across quality levels
-- The linear model fits the data well
-- There is less curvature or funneling in the residuals
-This makes Overall Qual a better candidate for linear regression.
+
+The residual plot shows:
+
+- **More consistent variance** across quality levels
+- **Less curvature or funneling**
+- **A strong linear fit**
+
+This suggests:
+
+- Quality is a **reliable and stable** predictor
+- The linear model captures the relationship well
+- This regression provides **stronger predictive power** than Gr Liv Area
+
+## 📈 Regression 3: Year Built → SalePrice
+| Metric | Value | Interpretation |
+| --- | --- | --- |
+| **R²** | 0.3118 | About 31 % of the variation in sale price is explained by the year the home was built — the weakest linear relationship of the three models. |
+| **RMSE** | $66 259.04 | Predictions differ from actual sale prices by roughly $66k on average, the largest error among the three regressions. |
+
+## 🔎 Interpretation
+
+The fitted‑line plot shows a clear positive trend — newer homes tend to sell for more. However, this relationship is noticeably weaker than the patterns observed for Gr Liv Area and Overall Qual. The residuals display substantial spread, especially among older homes, indicating that age alone is not a reliable predictor of price.
+
+A major reason for this weaker relationship is the presence of historic and antique homes in the dataset. The oldest home in the data was built in 1872, and properties from the late 1800s and early 1900s behave very differently from modern homes. Some are fully restored and command premium prices, while others require major repairs and sell for much less. Renovations, neighborhood effects, and architectural uniqueness all disrupt the simple “newer = more expensive” pattern.
+
+This explains why the R² is lower and the RMSE is higher than the other models:
+Year Built captures long‑term trends, but it cannot account for the wide variability introduced by historic homes and remodels.
+
+## 📉 Residual Analysis
+
+The residual plot for Year Built reveals:
+
+- Wide scatter for older homes, especially those built before 1930
+- More consistent predictions for homes built after ~1980
+- No strong curvature, but clear variability across age groups
+
+These patterns suggest:
+
+- Age matters, but not as strongly as size or quality
+- Renovations and remodels significantly alter a home’s effective age
+- A simple linear model is acceptable, but not highly predictive
+
+## 📊 Overall Findings (All Three Regressions)
+| Feature | R² | RMSE | Strength |
+| --- | --- | --- | --- |
+| **Overall Qual** | 0.6388 | $48k | Strongest predictor |
+| **Gr Liv Area** | 0.4995 | $56k | Moderate predictor |
+| **Year Built** | 0.3118 | $66k | Weakest predictor |
+
+## Key Insights
+
+- **Quality** explains the most variation in price — craftsmanship and materials matter greatly.
+- **Size** is important but less consistent, especially for large homes.
+- **Age** influences price, but historic homes and remodels weaken the linear pattern.
+
+Together, these models show that no single feature fully explains home prices, but each contributes a different piece of the story.
 
 ## 🧠 Conclusion
-Overall Quality and Gr Liv Area both help explain variation in home prices, but they do so with different levels of strength and reliability. Gr Liv Area is a useful predictor because larger homes generally sell for more, and the linear model captures this broad trend. However, the relationship shows increasing spread at higher square footages, indicating that size alone cannot fully account for price differences. This suggests that while the model provides meaningful insight, it does not capture the full complexity of the housing market and should be supplemented with additional features or nonlinear transformations to improve accuracy.
+The expanded analysis confirms that home prices in Ames are shaped by multiple factors, each with different levels of predictive power. Overall Quality is the strongest single predictor, reflecting how buyers value materials, craftsmanship, and finish level. Gr Liv Area also plays a major role, capturing the general trend that larger homes tend to sell for more, though with greater variability at higher square footages.
 
-In contrast, Overall Quality demonstrates a much stronger and more consistent relationship with SalePrice. The linear model fits this predictor more cleanly, with less variability in the residuals and a noticeably higher R² value. This indicates that buyers place significant value on construction quality, materials, and craftsmanship—factors that influence price more directly and reliably than size alone. As a result, the Overall Quality regression offers clearer insight and stronger predictive power.
+Year Built provides insight into long‑term market trends, but its predictive power is limited by the presence of historic homes and the impact of renovations. Homes built in the late 1800s and early 1900s introduce substantial variability, making age a weaker standalone predictor.
 
-Taken together, these results show that while physical size contributes to home value, qualitative characteristics of the home play an even more important role. A comprehensive predictive model should therefore incorporate both structural attributes (like square footage) and qualitative assessments (like overall quality) to more accurately reflect the factors that drive housing prices.
-
-## 📊 Overall Findings
-Both regressions reveal meaningful relationships between home features and sale price. However:
-- Overall Qual provides a stronger linear fit
-- Gr Liv Area shows more variability
-- Both models highlight important aspects of home valuation
-
-Both regressions confirm that individual home features meaningfully influence sale price, but they differ in how strongly they explain that variation. Overall Quality produces a cleaner, more reliable linear relationship, with tighter residuals and stronger predictive performance. Gr Liv Area also shows a positive trend, but the wider spread in its residuals indicates greater variability and less consistent predictive power. Together, the models show that while size contributes to home value, quality captures a larger share of what drives price differences in the Ames housing market.
-
-Simple linear regression is useful, but more advanced models may capture additional complexity.
-
-## 📌 Next Steps for Further Analysis
-1. **Explore Additional Predictive Features**
-
-The Ames dataset contains many numerical variables that may have stronger or complementary relationships with SalePrice. Features such as Total Basement Area, Garage Area, 1st Floor SF, and Year Built often show meaningful linear patterns. Testing these variables individually can help identify which characteristics of a home contribute most to its market value. This step also helps determine whether size‑related features or age‑related features provide better predictive power.
-
-2. **Apply Transformations to Improve Linearity**
-
-Some relationships become more linear after applying mathematical transformations. For example, taking the logarithm of SalePrice can stabilize variance and reduce the impact of extreme values. Similarly, applying log or square‑root transformations to skewed features (like Gr Liv Area or Total Bsmt SF) can produce cleaner residual patterns. This step helps determine whether a straight‑line model is appropriate or whether the raw data needs adjustment.
-
-3. **Build Multivariate Regression Models**
-
-Simple linear regression examines one feature at a time, but home prices are influenced by multiple factors simultaneously. A multivariate model that includes both Gr Liv Area and Overall Qual, along with other strong predictors, can significantly improve accuracy. This step allows you to evaluate how features interact and how much each contributes when controlling for others. It also moves the project closer to real‑world predictive modeling.
-
-4. **Compare Models Using a Summary Table**
-
-Once multiple models are built, it is helpful to compare them side‑by‑side using metrics such as R², RMSE, and residual behavior. A summary table makes it easy to see which model performs best and why. This comparison also highlights trade‑offs between interpretability and predictive power. Including such a table strengthens the analytical depth of the project and provides a clear justification for model selection.
-
-5. **Investigate Non‑Linear or Tree‑Based Models**
-
-If residual plots show curvature or patterns that a straight line cannot capture, it may be appropriate to explore more flexible models. Techniques such as polynomial regression, decision trees, or random forests can model complex relationships without requiring strict linearity. While these models are more advanced, they can reveal structure in the data that simple linear regression misses. This step demonstrates awareness of modern modeling approaches and provides a path for future project expansion.
+These results highlight the importance of combining structural features (size), qualitative assessments (quality), and temporal characteristics (age) to understand housing prices. While simple linear regression provides valuable insight into individual relationships, a more complete predictive model would incorporate multiple features simultaneously to capture the full complexity of the housing market.
 
 # Custom Project
 
@@ -96,15 +107,51 @@ If residual plots show curvature or patterns that a straight line cannot capture
 For this project, I began with the example regression workflow provided in the course, specifically the CO₂ case study that demonstrated how to load a dataset, prepare a modeling view, fit a linear regression model, compute fitted values, examine residuals, and generate visualizations. Using that workflow as a foundation, I applied the same structure to the Ames Housing dataset. My input data came from `data/raw/housing.csv`, which contains 2,930 rows and 83 columns describing residential properties in Ames, Iowa. I used the example script as a guide for organizing my functions, logging steps, and producing a complete regression analysis.
 
 # 🛠️Phase 4 Modifications
-For Phase 4, I made a small but meaningful technical modification to my regression script. I added a new function that computes R‑squared and RMSE using scikit‑learn’s `r2_score` and `mean_squared_error`. I chose this modification because the example script emphasized the importance of evaluating model performance, and adding these metrics made my analysis more complete. I also customized the scatter plot visuals by assigning red, white, and blue colors to the points, which improved readability and aligned with my preferred visualization style. I verified that the modification worked by running the script, checking that the metrics appeared in the logs, and confirming that the updated plots were saved correctly in the `docs/images` folder.
+For Phase 4, I made a small but meaningful technical modification to my regression script. I added a new function that computes R‑squared and RMSE using scikit‑learn’s `r2_score` and `mean_squared_error`. I chose this modification because the example script emphasized the importance of evaluating model performance, and adding these metrics made my analysis more complete. I also customized the scatter plot visuals by assigning **red**, **white**, and **blue** colors to the points, which improved readability and aligned with my preferred visualization style. I verified that the modification worked by running the script, checking that the metrics appeared in the logs, and confirming that the updated plots were saved correctly in the `docs/images` folder.
 
 # 🎯Phase 5 Custom Project
-For Phase 5, I extended the regression workflow to analyze two different predictors of home sale price in the Ames Housing dataset: above‑ground living area (`Gr Liv Area`) and overall quality rating (`Overall Qual`). I built a complete regression pipeline that included loading the data, preparing a modeling view, fitting the model, computing metrics, generating scatter and residual plots, and saving the visualizations. I recommend changing the example workflow by adding metric computation, saving plots automatically, and running multiple regressions within the same script, because these additions make the analysis more informative and easier to compare.
+In Phase 5, I extended the workflow to analyze **multiple predictors** of SalePrice: Gr Liv Area, Overall Qual, and Year Built. I built a complete regression pipeline that loads the dataset, prepares a modeling view, fits the model, computes metrics, generates scatter and residual plots, and saves all visualizations automatically.
 
-In my results, I found that Overall Quality was a much stronger predictor of SalePrice than Gr Liv Area. The regression using Gr Liv Area produced an R‑squared of about 0.50, while the regression using Overall Quality produced an R‑squared of about 0.64. The residual plots also supported this conclusion: the residuals for Overall Quality were more randomly scattered around zero, indicating a better linear fit. From this project, I learned how different features can produce very different model performances and how important it is to evaluate both numerical metrics and visual diagnostics.
+## 📄What I Learned
 
-In completing this project, I exercised nearly all the skills covered in the module: loading and cleaning data, building modeling views, constructing feature matrices, fitting regression models, computing performance metrics, generating visualizations, saving outputs, and writing documentation. These techniques can be applied to many future problems, such as predicting housing prices in other cities, analyzing relationships between economic indicators, or exploring correlations in any structured dataset.
+- Different features produce very different model performances.
+- Quality is the strongest predictor, size is moderate, and age is the weakest.
+- Residual plots are essential for diagnosing model fit.
+- Historic homes (as early as 1872) significantly affect age‑based models.
 
+This project applied nearly every skill from the module: data loading, cleaning, feature engineering, modeling, visualization, logging, and documentation.
+
+## 🏛️Executive Summary
+This project uses a complete simple linear regression workflow to analyze the Ames, Iowa Housing dataset and determine how individual home features influence sale price. Through a structured and repeatable analytics pipeline, the analysis evaluates three key predictors — Gr Liv Area, Overall Qual, and Year Built — and compares their performance using numerical metrics and residual diagnostics.
+
+The results reveal a clear hierarchy of predictive strength. Overall Quality is the strongest single predictor of SalePrice, explaining approximately 64% of the variation and producing the cleanest residual patterns. Gr Liv Area shows a moderate relationship, capturing broad pricing trends but exhibiting increasing variability for larger homes. Year Built is the weakest predictor, largely due to the presence of historic homes — some built as early as 1872 — which introduce substantial variability and disrupt the linear trend between age and price.
+
+Residual analysis played a critical role in diagnosing model behavior. Funnel shapes, uneven variance, and wide scatter among older homes highlighted where linear assumptions held and where they broke down. These visual diagnostics provided insight beyond R² and RMSE, revealing why certain models performed better and where simple linear regression reached its limitations.
+
+Throughout the project, nearly every core data analytics skill was applied: loading and inspecting raw data, cleaning and engineering features, constructing modeling views, fitting regression models, computing performance metrics, generating visualizations, interpreting residuals, and writing clear documentation. The workflow demonstrates how to move from raw data to meaningful statistical insight using a transparent, reproducible process.
+
+Overall, the project shows that while simple linear regression provides valuable first‑step understanding of individual relationships, housing prices are influenced by multiple interacting factors. A more complete predictive model will require combining features, applying transformations, and exploring more flexible modeling techniques.
+
+## 📌Next Steps for Further Analysis
+1. **Build a Multivariate Regression Model**
+
+A natural next step is to move beyond single‑feature models and build a multivariate regression that includes Gr Liv Area, Overall Qual, Year Built, and other strong predictors. This approach allows the model to account for multiple influences simultaneously, improving accuracy and revealing how features interact when controlling for one another. A multivariate model will also help determine which features remain significant once others are included.
+
+2. **Explore Additional Predictive Features**
+
+The Ames dataset contains many numerical variables that may provide stronger or complementary predictive power. Features such as Total Basement Area, Garage Area, 1st Floor SF, and Lot Area often show meaningful linear relationships with SalePrice. Testing these variables individually and in combination can help identify which characteristics contribute most to home value and whether structural, qualitative, or age‑related features dominate.
+
+3. **Analyze Decade‑Level Trends and Historic Home Effects**
+
+Since the dataset includes homes built as early as 1872, age‑related patterns are not linear. Grouping homes by decade (e.g., 1900s, 1910s, 1920s, …) can reveal clearer temporal trends and help isolate the impact of historic homes. This analysis can show whether certain eras consistently command higher or lower prices and whether remodels or architectural styles influence value differently across time periods.
+
+4. **Apply Transformations to Improve Linearity**
+
+Some relationships become more linear after applying mathematical transformations. Taking the logarithm of SalePrice can stabilize variance and reduce the influence of extreme values. Similarly, applying log or square‑root transformations to skewed predictors (such as Gr Liv Area or Total Bsmt SF) can produce cleaner residual patterns. This step helps determine whether linear regression is appropriate or whether the raw data needs adjustment.
+
+5. **Investigate Non‑Linear and Tree‑Based Models**
+
+If residual plots continue to show curvature or inconsistent variance, more flexible models may be appropriate. Techniques such as polynomial regression, decision trees, random forests, or gradient boosting can capture complex relationships that simple linear regression cannot. These models can reveal structure in the data that linear models miss and provide a more realistic representation of how multiple housing features interact.
 
 [⭐ **Workflow: Apply Example**](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 to get these projects running on your machine.

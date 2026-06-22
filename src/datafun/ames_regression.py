@@ -286,9 +286,72 @@ def run_overallqual_regression():
     LOG.info("========================")
 
 
+def run_yearbuilt_regression():
+    FEATURE_COL_3 = "Year Built"
+    FEATURE_LABEL_3 = "Year Built (Construction Year)"
+
+    log_header(LOG, "REGRESSION: Year Built vs SalePrice")
+
+    df = load_data()
+    df_model = df.dropna(subset=[FEATURE_COL_3, TARGET_COL]).copy()
+
+    LOG.info(f"Original rows: {df.shape[0]}")
+    LOG.info(f"Model rows:    {df_model.shape[0]}")
+    LOG.info(f"Rows dropped:  {df.shape[0] - df_model.shape[0]}")
+
+    X = df_model[[FEATURE_COL_3]].to_numpy()
+    y = df_model[TARGET_COL].to_numpy()
+
+    model = LinearRegression()
+    model.fit(X, y)
+
+    slope = float(model.coef_[0])
+    intercept = float(model.intercept_)
+
+    LOG.info(
+        f"Fitted line: {TARGET_COL} = {slope:.6g} * {FEATURE_COL_3} + {intercept:.6g}"
+    )
+
+    y_hat = model.predict(X)
+    compute_metrics(y, y_hat)
+    residuals = y - y_hat
+
+    # Scatter plot
+    plt.figure()
+    plt.scatter(X, y, alpha=0.4, color="green", edgecolors="black")
+    plt.plot(X, y_hat, color="red", linewidth=2)
+    plt.xlabel(FEATURE_LABEL_3)
+    plt.ylabel(TARGET_LABEL)
+    plt.title(f"{FEATURE_LABEL_3} vs {TARGET_LABEL}")
+    plt.savefig("docs/images/yearbuilt_saleprice_scatter.png", dpi=300)
+
+    # Residual plot
+    plt.figure()
+    plt.scatter(X, residuals, alpha=0.4, color="green", edgecolors="black")
+    plt.axhline(0, color="red", linewidth=2)
+    plt.xlabel(FEATURE_LABEL_3)
+    plt.ylabel("Residuals")
+    plt.title(f"Residuals vs {FEATURE_LABEL_3}")
+    plt.savefig("docs/images/yearbuilt_saleprice_residuals.png", dpi=300)
+
+    LOG.info("========================")
+    LOG.info("SUMMARY")
+    LOG.info("========================")
+    LOG.info(f"Dataset: {DATASET_NAME}")
+    LOG.info(f"Feature (x): {FEATURE_COL_3}")
+    LOG.info(f"Target  (y): {TARGET_COL}")
+    LOG.info(f"Original rows: {df.shape[0]}")
+    LOG.info(f"Model rows:    {df_model.shape[0]}")
+    LOG.info(
+        f"Fitted line: {TARGET_COL} = {slope:.6g} * {FEATURE_COL_3} + {intercept:.6g}"
+    )
+    LOG.info("========================")
+
+
 # === RUN BOTH REGRESSIONS ===
 
 if __name__ == "__main__":
-    main()
-    run_overallqual_regression()
+    main()  # Gr Liv Area vs SalePrice
+    run_overallqual_regression()  # Overall Qual vs SalePrice
+    run_yearbuilt_regression()  # Year Built vs SalePrice
     plt.show()
