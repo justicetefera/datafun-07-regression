@@ -155,7 +155,7 @@ If residual plots continue to show curvature or inconsistent variance, more flex
 
 ## How-To Guide
 
-[⭐ **Workflow: Apply Example**](https://justicetefera.github.io/datafun-07-regression/workflow-b-apply-example-project/)
+[⭐ **Workflow: Apply Example**](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 
 ## Project Documentation Pages (docs/)
 
