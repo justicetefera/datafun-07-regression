@@ -7,6 +7,9 @@
 # WHY: Centralizes project documentation configuration.
 # OBS: This file is rendered by dc-up from repository identity.
 # CUSTOM: Keep project-specific narrative in docs/, not in this configuration file.
+[author]
+name = "Justice Tefera"
+github = "justicetefera"
 
 [project]
 site_name = "Docs" # CUSTOM: Tab name of the documentation site.
