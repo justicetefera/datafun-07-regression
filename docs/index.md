@@ -1,6 +1,6 @@
 # 📚Project Documentation
 This project demonstrates how to apply simple linear regression to real‑world housing data.
-Using the Ames Housing dataset (≈2,930 homes), the project examines how individual home features relate to SalePrice.
+Using the Ames, Iowa Housing dataset (≈2,930 homes), the project examines how individual home features relate to SalePrice.
 
 ## 📈Regression 1: Gr Liv Area → SalePrice
 | Metric | Value | Interpretation |

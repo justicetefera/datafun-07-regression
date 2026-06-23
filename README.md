@@ -28,6 +28,7 @@ These results help determine whether a straight-line model is a fair description
 ## 📌 How to Run the Project
 From the project root directory:
 ```shell
+uv run python -m datafun.ames_regression
 python src/datafun/ames_regression.py
 ```
 This script automatically runs all three regressions and saves plots to: `docs/images/`
@@ -221,6 +222,14 @@ git push -u origin main
 
 ## 🖼️ Visualizations and Findings
 
+### Gr. Living Area Residuals Plot
+![Residuals Plot](docs/images/residuals_plot.png)
+The residuals plot for the Gr Liv Area model, shows how the model’s errors behave across the full range of living area values. The pattern reveals that prediction errors grow larger for bigger homes, which indicates heteroscedasticity. This means the model fits smaller and mid‑sized homes more consistently than very large ones. The plot helps explain why this regression has lower R² and higher RMSE compared to the Overall Quality model.
+
+### Gr. Living Area Scatter Plot with Regression Line
+![Scatter With Line](docs/images/scatter_with_line.png)
+The scatter plot with the regression line for Gr Liv Area, illustrates how the fitted line captures the general upward trend between living area and sale price. Most points fall near the line, showing that the model captures the overall relationship, but the wider spread at larger square footage highlights the model’s limitations. This visual gives an intuitive sense of how well the model performs and where it begins to struggle.
+
 ### Overall Quality vs Sale Price — Residuals
 ![Overall Quality Residuals](docs/images/overallqual_saleprice_residuals.png)
 The Overall Quality vs Sale Price residual plot, shows how far the model’s predictions deviate from the actual sale prices for each quality level. When the residuals cluster evenly around zero, the model is behaving well; when they drift upward or downward for certain quality ratings, it suggests the model may be over‑ or under‑predicting for those homes. This plot helps reveal whether the linear model is fair across the full range of quality scores.
@@ -236,14 +245,6 @@ The residual plot shows large prediction errors for older homes, especially pre�
 ### Year Built vs SalePrice — Scatter Plot
 ![Year Built Scatter](docs/images/yearbuilt_saleprice_scatter.png)
 This scatter plot shows a general upward trend: newer homes tend to sell for more. However, the points are widely spread, especially for homes built before 1930, which makes age a weaker predictor. Newer homes show a clearer pattern with higher prices and less variability.
-
-### Gr. Living Area Residuals Plot
-![Residuals Plot](docs/images/residuals_plot.png)
-The residuals plot for the Gr Liv Area model, shows how the model’s errors behave across the full range of living area values. The pattern reveals that prediction errors grow larger for bigger homes, which indicates heteroscedasticity. This means the model fits smaller and mid‑sized homes more consistently than very large ones. The plot helps explain why this regression has lower R² and higher RMSE compared to the Overall Quality model.
-
-### Gr. Living Area Scatter Plot with Regression Line
-![Scatter With Line](docs/images/scatter_with_line.png)
-The scatter plot with the regression line for Gr Liv Area, illustrates how the fitted line captures the general upward trend between living area and sale price. Most points fall near the line, showing that the model captures the overall relationship, but the wider spread at larger square footage highlights the model’s limitations. This visual gives an intuitive sense of how well the model performs and where it begins to struggle.
 
 ## 🎨 Note on Color Styling
 Some of the scatterplots in this project use red, white, and blue point colors. These colors were chosen purely for visual styling and aesthetic appeal. The color differences do not represent categories, groups, or additional variables in the dataset. All points carry the same meaning; the varied colors simply enhance readability and give the plots a distinctive visual identity without encoding extra information.
