@@ -3,10 +3,12 @@ This project demonstrates how to apply simple linear regression to real‑world 
 Using the Ames, Iowa Housing dataset (≈2,930 homes), the project examines how individual home features relate to SalePrice.
 
 ## 📈Regression 1: Gr Liv Area → SalePrice
+```shell
 | Metric | Value | Interpretation |
 | --- | --- | --- |
 | **R²** | 0.4995 | About 50% of the variation in sale price is explained by above‑ground living area — a moderate linear relationship. |
 | **RMSE** | $56 504.88 | Predictions differ from actual sale prices by roughly $56k on average, a realistic spread for housing data. |
+```
 
 ### 🔎Interpretation
 The fitted‑line plot shows a clear upward trend: larger homes tend to sell for more. This relationship is meaningful but not perfect. The residual plot displays a funnel shape, where prediction errors increase for larger homes. This indicates heteroscedasticity — the variance of sale prices grows as square footage increases.
@@ -26,10 +28,12 @@ This means:
 - Additional features would improve predictive accuracy
 
 ### 📈Regression 2: Overall Qual → SalePrice
+```shell
 | Metric | Value | Interpretation |
 | --- | --- | --- |
 | **R²** | 0.6388 | About 64% of the variation in sale price is explained by overall quality — a strong linear relationship. |
 | **RMSE** | $48 002.35 | Predictions differ from actual sale prices by about $48k on average, indicating better accuracy than the Gr Liv Area model. |
+```
 
 ### 🔎Interpretation
 Overall Quality is one of the strongest predictors of home sale price in the Ames dataset. The fitted‑line plot shows a steep, clean upward trend: higher‑quality homes consistently sell for more. Compared to Gr Liv Area, this relationship is tighter, more linear, and more stable.
@@ -51,10 +55,12 @@ This suggests:
 - This regression provides **stronger predictive power** than Gr Liv Area
 
 ## 📈 Regression 3: Year Built → SalePrice
+```shell
 | Metric | Value | Interpretation |
 | --- | --- | --- |
 | **R²** | 0.3118 | About 31 % of the variation in sale price is explained by the year the home was built — the weakest linear relationship of the three models. |
 | **RMSE** | $66 259.04 | Predictions differ from actual sale prices by roughly $66k on average, the largest error among the three regressions. |
+```
 
 ## 🔎 Interpretation
 
@@ -80,12 +86,13 @@ These patterns suggest:
 - A simple linear model is acceptable, but not highly predictive
 
 ## 📊 Overall Findings (All Three Regressions)
+```shell
 | Feature | R² | RMSE | Strength |
 | --- | --- | --- | --- |
 | **Overall Qual** | 0.6388 | $48k | Strongest predictor |
 | **Gr Liv Area** | 0.4995 | $56k | Moderate predictor |
 | **Year Built** | 0.3118 | $66k | Weakest predictor |
-
+```
 ## Key Insights
 
 - **Quality** explains the most variation in price — craftsmanship and materials matter greatly.
