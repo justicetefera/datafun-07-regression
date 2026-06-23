@@ -1,7 +1,8 @@
-# 📚 Ames Housing Regression Documentation                                            🔗 **🗂️ Repostery**
-https://github.com/justicetefera/datafun-07-regression
+# 📚 Ames Housing Regression Documentation
+🔗 **🗂️ Repostery:** https://github.com/justicetefera/datafun-07-regression
 
 **Author: Justice Tefera**
+
 
 This project demonstrates how to apply simple linear regression to real‑world housing data.
 Using the Ames, Iowa Housing dataset (2,930 homes), the project examines how individual home features relate to SalePrice.
