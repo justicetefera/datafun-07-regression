@@ -6,7 +6,7 @@ Using the Ames, Iowa Housing dataset (≈2,930 homes), the project examines how 
 | **[Metric](ca://s?q=Explain_R_squared_and_RMSE)** | **Value** | **Interpretation** |
 | --- | --- | --- |
 | **R²** | 0.4995 | About 50% of the variation in sale price is explained by above‑ground living area — a moderate linear relationship. |
-| **RMSE** | $56 504.88 | Predictions differ from actual sale prices by roughly $56k on average, a realistic spread for housing data. |
+| **RMSE** | $56 504.88 | Predictions differ from actual sale prices by roughly $56k on average. |
 
 ### 🔎Interpretation
 The fitted‑line plot shows a clear upward trend: larger homes tend to sell for more. This relationship is meaningful but not perfect. The residual plot displays a funnel shape, where prediction errors increase for larger homes. This indicates heteroscedasticity — the variance of sale prices grows as square footage increases.
@@ -29,7 +29,7 @@ This means:
 | **[Metric](ca://s?q=Explain_R_squared_and_RMSE)** | **Value** | **Interpretation** |
 | --- | --- | --- |
 | **R²** | 0.6388 | About 64% of the variation in sale price is explained by overall quality — a strong linear relationship. |
-| **RMSE** | $48 002.35 | Predictions differ from actual sale prices by about $48k on average, indicating better accuracy than the Gr Liv Area model. |
+| **RMSE** | $48 002.35 | Predictions differ from actual sale prices by about $48k on average. |
 
 ### 🔎Interpretation
 Overall Quality is one of the strongest predictors of home sale price in the Ames dataset. The fitted‑line plot shows a steep, clean upward trend: higher‑quality homes consistently sell for more. Compared to Gr Liv Area, this relationship is tighter, more linear, and more stable.
@@ -53,8 +53,8 @@ This suggests:
 ## 📈 Regression 3: Year Built → SalePrice
 | **[Metric](ca://s?q=Explain_R_squared_and_RMSE)** | **Value** | **Interpretation** |
 | --- | --- | --- |
-| **R²** | 0.3118 | About 31 % of the variation in sale price is explained by the year the home was built — the weakest linear relationship of the three models. |
-| **RMSE** | $66 259.04 | Predictions differ from actual sale prices by roughly $66k on average, the largest error among the three regressions. |
+| **R²** | 0.3118 | About 31% of the variation in sale price is explained by the year the home was built — the weakest relationship. |
+| **RMSE** | $66 259.04 | Predictions differ from actual sale prices by roughly $66k on average. |
 
 ## 🔎 Interpretation
 
