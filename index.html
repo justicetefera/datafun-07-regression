@@ -25,7 +25,7 @@
     
     
       
-        <title>📚Project Documentation - Docs</title>
+        <title>📚 Ames Housing Regression Documentation - Docs</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#project-documentation" class="md-skip">
+        <a href="#ames-housing-regression-documentation" class="md-skip">
           Skip to content
         </a>
       
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📚Project Documentation
+              📚 Ames Housing Regression Documentation
             
           </span>
         </div>
@@ -216,7 +216,7 @@
   <span class="md-ellipsis">
     
   
-  📚Project Documentation
+  📚 Ames Housing Regression Documentation
 
     
   </span>
@@ -233,7 +233,7 @@
   <span class="md-ellipsis">
     
   
-  📚Project Documentation
+  📚 Ames Housing Regression Documentation
 
     
   </span>
@@ -529,9 +529,10 @@
   
 
 
-<h1 id="project-documentation">📚Project Documentation<a class="headerlink" href="#project-documentation" title="Permanent link">&para;</a></h1>
+<h1 id="ames-housing-regression-documentation">📚 Ames Housing Regression Documentation<a class="headerlink" href="#ames-housing-regression-documentation" title="Permanent link">&para;</a></h1>
+<p><strong>Author: Justice Tefera</strong></p>
 <p>This project demonstrates how to apply simple linear regression to real‑world housing data.
-Using the Ames, Iowa Housing dataset (≈2,930 homes), the project examines how individual home features relate to SalePrice.</p>
+Using the Ames, Iowa Housing dataset (2,930 homes), the project examines how individual home features relate to SalePrice.</p>
 <h2 id="regression-1-gr-liv-area-saleprice">📈Regression 1: Gr Liv Area → SalePrice<a class="headerlink" href="#regression-1-gr-liv-area-saleprice" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -695,9 +696,9 @@ Year Built captures long‑term trends, but it cannot account for the wide varia
 <p>These results highlight the importance of combining structural features (size), qualitative assessments (quality), and temporal characteristics (age) to understand housing prices. While simple linear regression provides valuable insight into individual relationships, a more complete predictive model would incorporate multiple features simultaneously to capture the full complexity of the housing market.</p>
 <h1 id="custom-project">Custom Project<a class="headerlink" href="#custom-project" title="Permanent link">&para;</a></h1>
 <h1 id="basis">🧱Basis<a class="headerlink" href="#basis" title="Permanent link">&para;</a></h1>
-<p>For this project, I began with the example regression workflow provided in the course, specifically the CO₂ case study that demonstrated how to load a dataset, prepare a modeling view, fit a linear regression model, compute fitted values, examine residuals, and generate visualizations. Using that workflow as a foundation, I applied the same structure to the Ames Housing dataset. My input data came from <code>data/raw/housing.csv</code>, which contains 2,930 rows and 83 columns describing residential properties in Ames, Iowa. I used the example script as a guide for organizing my functions, logging steps, and producing a complete regression analysis.</p>
+<p>For this project, I began with the regression workflow provided in the course, specifically the CO₂ case study that demonstrated how to load a dataset, prepare a modeling view, fit a linear regression model, compute fitted values, examine residuals, and generate visualizations. Using that workflow as a foundation, I applied the same structure to the Ames Housing dataset. My input data came from <code>data/raw/housing.csv</code>, which contains 2,930 rows and 83 columns describing residential properties in Ames, Iowa. I used the regression workflow script as a guide for organizing my functions, logging steps, and producing a complete regression analysis.</p>
 <h1 id="phase-4-modifications">🛠️Phase 4 Modifications<a class="headerlink" href="#phase-4-modifications" title="Permanent link">&para;</a></h1>
-<p>For Phase 4, I made a small but meaningful technical modification to my regression script. I added a new function that computes R‑squared and RMSE using scikit‑learn’s <code>r2_score</code> and <code>mean_squared_error</code>. I chose this modification because the example script emphasized the importance of evaluating model performance, and adding these metrics made my analysis more complete. I also customized the scatter plot visuals by assigning <strong>red</strong>, <strong>white</strong>, and <strong>blue</strong> colors to the points, which improved readability and aligned with my preferred visualization style. I verified that the modification worked by running the script, checking that the metrics appeared in the logs, and confirming that the updated plots were saved correctly in the <code>docs/images</code> folder.</p>
+<p>For Phase 4, I made a small but meaningful technical modification to my regression script. I added a new function that computes R‑squared and RMSE using scikit‑learn’s <code>r2_score</code> and <code>mean_squared_error</code>. I chose this modification because the regression script emphasized the importance of evaluating model performance, and adding these metrics made my analysis more complete. I also customized the scatter plot visuals by assigning <strong>red</strong>, <strong>white</strong>, and <strong>blue</strong> colors to the points, which improved readability and aligned with my preferred visualization style. I verified that the modification worked by running the script, checking that the metrics appeared in the logs, and confirming that the updated plots were saved correctly in the <code>docs/images</code> folder.</p>
 <h1 id="phase-5-custom-project">🎯Phase 5 Custom Project<a class="headerlink" href="#phase-5-custom-project" title="Permanent link">&para;</a></h1>
 <p>In Phase 5, I extended the workflow to analyze <strong>multiple predictors</strong> of SalePrice: Gr Liv Area, Overall Qual, and Year Built. I built a complete regression pipeline that loads the dataset, prepares a modeling view, fits the model, computes metrics, generates scatter and residual plots, and saves all visualizations automatically.</p>
 <h2 id="what-i-learned">📄What I Learned<a class="headerlink" href="#what-i-learned" title="Permanent link">&para;</a></h2>
@@ -736,15 +737,15 @@ Year Built captures long‑term trends, but it cannot account for the wide varia
 </ol>
 <p>If residual plots continue to show curvature or inconsistent variance, more flexible models may be appropriate. Techniques such as polynomial regression, decision trees, random forests, or gradient boosting can capture complex relationships that simple linear regression cannot. These models can reveal structure in the data that linear models miss and provide a more realistic representation of how multiple housing features interact.</p>
 <h2 id="how-to-guide">How-To Guide<a class="headerlink" href="#how-to-guide" title="Permanent link">&para;</a></h2>
-<p><a href="https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/">⭐ <strong>Workflow: Apply Example</strong></a></p>
+<p><a href="https://justicetefera.github.io/datafun-07-regression/">⭐ <strong>Live Documentation Site</strong></a></p>
 <h2 id="project-documentation-pages-docs">Project Documentation Pages (docs/)<a class="headerlink" href="#project-documentation-pages-docs" title="Permanent link">&para;</a></h2>
+<p>Maintained by <strong>Justice Tefera</strong></p>
 <ul>
 <li><strong>Home</strong> - this documentation landing page</li>
-<li><a href="./project-instructions/"><strong>Project Instructions</strong></a> - specific to this module</li>
-<li><a href="./your-files/"><strong>Your Files</strong></a> - how to copy the example and create your version</li>
-<li><a href="./glossary/"><strong>Glossary</strong></a> - project terms and concepts</li>
-<li><a href="./api/"><strong>API</strong></a> - autogenerated code documentation for public project interface
-   Not easy to read, but useful once you get used to it.</li>
+<li><a href="./project-instructions/"><strong>Project Instructions</strong></a></li>
+<li><a href="./your-files/"><strong>Your Files</strong></a></li>
+<li><a href="./glossary/"><strong>Glossary</strong></a></li>
+<li><a href="./api/"><strong>API</strong></a></li>
 <li><a href="./module/"><strong>Module-specific</strong></a></li>
 </ul>
 
