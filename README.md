@@ -6,6 +6,14 @@
 
 > Professional Python project: linear regression and predictive analytics.
 
+## 👤 Author
+**Justice Tefera**
+
+📘 **Live Documentation:**
+https://justicetefera.github.io/datafun-07-regression/
+
+🔗 **GitHub Repository:**
+https://github.com/justicetefera/datafun-07-regression
 
 ## 📝 Project Overview
 This project introduces the core ideas of linear regression, a fundamental statistical technique used to model relationships between variables and make predictions based on data. In simple terms, linear regression fits a straight line through a cloud of data points in a way that best represents the overall trend.
