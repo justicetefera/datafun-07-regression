@@ -157,15 +157,16 @@ Some relationships become more linear after applying mathematical transformation
 
 If residual plots continue to show curvature or inconsistent variance, more flexible models may be appropriate. Techniques such as polynomial regression, decision trees, random forests, or gradient boosting can capture complex relationships that simple linear regression cannot. These models can reveal structure in the data that linear models miss and provide a more realistic representation of how multiple housing features interact.
 
+# Project Documentation
+
+This site provides project documentation.
+Use the documentation navigation to explore.
+
 ## How-To Guide
 
-To run this project locally:
-1. Clone the repository
-2. Create and activate a virtual environment
-3. Install dependencies using `uv`
-4. Run the notebook or scripts inside the `notebooks/` directory
+Many instructions are common to all our projects.
 
-For reference, see the example workflow:
+See
 [⭐ **Workflow: Apply Example**](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 to get these projects running on your machine.
 
