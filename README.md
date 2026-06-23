@@ -12,7 +12,7 @@
 📘 **Live Documentation:**
 https://justicetefera.github.io/datafun-07-regression/
 
-🔗 **GitHub Repository:**
+🔗 **🗂️ Repostery**
 https://github.com/justicetefera/datafun-07-regression
 
 ## 📝 Project Overview
