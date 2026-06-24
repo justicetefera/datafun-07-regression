@@ -2535,3 +2535,695 @@ write down what you conclude.
 2026-06-23 02:06:48 | INFO | JT | Model rows:    2930
 2026-06-23 02:06:48 | INFO | JT | Fitted line: SalePrice = 1474.96 * Year Built + -2.72688e+06
 2026-06-23 02:06:48 | INFO | JT | ========================
+2026-06-24 14:22:40 | INFO | JT-XYZ | === RUN START ===
+2026-06-24 14:22:40 | INFO | JT-XYZ | project=JT XYZ REGRESSIONS
+2026-06-24 14:22:40 | INFO | JT-XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:22:40 | INFO | JT-XYZ | python=3.14.5
+2026-06-24 14:22:40 | INFO | JT-XYZ | os=Windows 11
+2026-06-24 14:22:40 | INFO | JT-XYZ | shell=powershell
+2026-06-24 14:22:40 | INFO | JT-XYZ | cwd=.
+2026-06-24 14:22:40 | INFO | JT-XYZ | github_actions=False
+2026-06-24 14:22:40 | INFO | JT-XYZ | === RUN START ===
+2026-06-24 14:22:40 | INFO | JT-XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 14:22:40 | INFO | JT-XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:22:40 | INFO | JT-XYZ | python=3.14.5
+2026-06-24 14:22:40 | INFO | JT-XYZ | os=Windows 11
+2026-06-24 14:22:40 | INFO | JT-XYZ | shell=powershell
+2026-06-24 14:22:40 | INFO | JT-XYZ | cwd=.
+2026-06-24 14:22:40 | INFO | JT-XYZ | github_actions=False
+2026-06-24 14:22:40 | INFO | JT-XYZ | Loading dataset: housing
+2026-06-24 14:22:41 | INFO | JT-XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:22:41 | INFO | JT-XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 14:22:41 | INFO | JT-XYZ | R²: 0.4101
+2026-06-24 14:22:41 | INFO | JT-XYZ | RMSE: 61,354.78
+2026-06-24 14:22:46 | INFO | JT-XYZ | XYZ regression complete.
+2026-06-24 14:22:46 | INFO | JT-XYZ | ========================
+2026-06-24 14:22:46 | INFO | JT-XYZ | === RUN START ===
+2026-06-24 14:22:46 | INFO | JT-XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 14:22:46 | INFO | JT-XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:22:46 | INFO | JT-XYZ | python=3.14.5
+2026-06-24 14:22:46 | INFO | JT-XYZ | os=Windows 11
+2026-06-24 14:22:46 | INFO | JT-XYZ | shell=powershell
+2026-06-24 14:22:46 | INFO | JT-XYZ | cwd=.
+2026-06-24 14:22:46 | INFO | JT-XYZ | github_actions=False
+2026-06-24 14:22:46 | INFO | JT-XYZ | Loading dataset: housing
+2026-06-24 14:22:46 | INFO | JT-XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:22:46 | INFO | JT-XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 14:22:46 | INFO | JT-XYZ | R²: 0.3865
+2026-06-24 14:22:46 | INFO | JT-XYZ | RMSE: 62,562.53
+2026-06-24 14:22:47 | INFO | JT-XYZ | XYZ regression complete.
+2026-06-24 14:22:47 | INFO | JT-XYZ | ========================
+2026-06-24 14:22:47 | INFO | JT-XYZ | === RUN START ===
+2026-06-24 14:22:47 | INFO | JT-XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 14:22:47 | INFO | JT-XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:22:47 | INFO | JT-XYZ | python=3.14.5
+2026-06-24 14:22:47 | INFO | JT-XYZ | os=Windows 11
+2026-06-24 14:22:47 | INFO | JT-XYZ | shell=powershell
+2026-06-24 14:22:47 | INFO | JT-XYZ | cwd=.
+2026-06-24 14:22:47 | INFO | JT-XYZ | github_actions=False
+2026-06-24 14:22:47 | INFO | JT-XYZ | Loading dataset: housing
+2026-06-24 14:22:47 | INFO | JT-XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:22:47 | INFO | JT-XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 14:22:47 | INFO | JT-XYZ | R²: 0.2455
+2026-06-24 14:22:47 | INFO | JT-XYZ | RMSE: 69,379.54
+2026-06-24 14:22:48 | INFO | JT-XYZ | XYZ regression complete.
+2026-06-24 14:22:48 | INFO | JT-XYZ | ========================
+2026-06-24 14:34:33 | INFO | JT-XYZ | === RUN START ===
+2026-06-24 14:34:33 | INFO | JT-XYZ | project=JT XYZ REGRESSIONS
+2026-06-24 14:34:33 | INFO | JT-XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:34:33 | INFO | JT-XYZ | python=3.14.5
+2026-06-24 14:34:33 | INFO | JT-XYZ | os=Windows 11
+2026-06-24 14:34:33 | INFO | JT-XYZ | shell=powershell
+2026-06-24 14:34:33 | INFO | JT-XYZ | cwd=.
+2026-06-24 14:34:33 | INFO | JT-XYZ | github_actions=False
+2026-06-24 14:34:33 | INFO | JT-XYZ | === RUN START ===
+2026-06-24 14:34:33 | INFO | JT-XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 14:34:33 | INFO | JT-XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:34:33 | INFO | JT-XYZ | python=3.14.5
+2026-06-24 14:34:33 | INFO | JT-XYZ | os=Windows 11
+2026-06-24 14:34:33 | INFO | JT-XYZ | shell=powershell
+2026-06-24 14:34:33 | INFO | JT-XYZ | cwd=.
+2026-06-24 14:34:33 | INFO | JT-XYZ | github_actions=False
+2026-06-24 14:34:33 | INFO | JT-XYZ | Loading dataset: housing
+2026-06-24 14:34:33 | INFO | JT-XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:34:33 | INFO | JT-XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 14:34:33 | INFO | JT-XYZ | R²: 0.4101
+2026-06-24 14:34:33 | INFO | JT-XYZ | RMSE: 61,354.78
+2026-06-24 14:34:34 | INFO | JT-XYZ | XYZ regression complete.
+2026-06-24 14:34:34 | INFO | JT-XYZ | ========================
+2026-06-24 14:34:34 | INFO | JT-XYZ | === RUN START ===
+2026-06-24 14:34:34 | INFO | JT-XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 14:34:34 | INFO | JT-XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:34:34 | INFO | JT-XYZ | python=3.14.5
+2026-06-24 14:34:34 | INFO | JT-XYZ | os=Windows 11
+2026-06-24 14:34:34 | INFO | JT-XYZ | shell=powershell
+2026-06-24 14:34:34 | INFO | JT-XYZ | cwd=.
+2026-06-24 14:34:34 | INFO | JT-XYZ | github_actions=False
+2026-06-24 14:34:34 | INFO | JT-XYZ | Loading dataset: housing
+2026-06-24 14:34:34 | INFO | JT-XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:34:34 | INFO | JT-XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 14:34:34 | INFO | JT-XYZ | R²: 0.3865
+2026-06-24 14:34:34 | INFO | JT-XYZ | RMSE: 62,562.53
+2026-06-24 14:34:35 | INFO | JT-XYZ | XYZ regression complete.
+2026-06-24 14:34:35 | INFO | JT-XYZ | ========================
+2026-06-24 14:34:35 | INFO | JT-XYZ | === RUN START ===
+2026-06-24 14:34:35 | INFO | JT-XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 14:34:35 | INFO | JT-XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:34:35 | INFO | JT-XYZ | python=3.14.5
+2026-06-24 14:34:35 | INFO | JT-XYZ | os=Windows 11
+2026-06-24 14:34:35 | INFO | JT-XYZ | shell=powershell
+2026-06-24 14:34:35 | INFO | JT-XYZ | cwd=.
+2026-06-24 14:34:35 | INFO | JT-XYZ | github_actions=False
+2026-06-24 14:34:35 | INFO | JT-XYZ | Loading dataset: housing
+2026-06-24 14:34:35 | INFO | JT-XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:34:35 | INFO | JT-XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 14:34:35 | INFO | JT-XYZ | R²: 0.2455
+2026-06-24 14:34:35 | INFO | JT-XYZ | RMSE: 69,379.54
+2026-06-24 14:34:36 | INFO | JT-XYZ | XYZ regression complete.
+2026-06-24 14:34:36 | INFO | JT-XYZ | ========================
+2026-06-24 14:34:36 | INFO | JT-XYZ | === RUN START ===
+2026-06-24 14:34:36 | INFO | JT-XYZ | project=MULTIVARIABLE REGRESSION: Garage + 1st Flr SF + Rooms vs SalePrice
+2026-06-24 14:34:36 | INFO | JT-XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:34:36 | INFO | JT-XYZ | python=3.14.5
+2026-06-24 14:34:36 | INFO | JT-XYZ | os=Windows 11
+2026-06-24 14:34:36 | INFO | JT-XYZ | shell=powershell
+2026-06-24 14:34:36 | INFO | JT-XYZ | cwd=.
+2026-06-24 14:34:36 | INFO | JT-XYZ | github_actions=False
+2026-06-24 14:34:36 | INFO | JT-XYZ | Loading dataset: housing
+2026-06-24 14:34:36 | INFO | JT-XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:34:36 | INFO | JT-XYZ | Model: SalePrice = 148.498 * Garage Area + 68.062 * 1st Flr SF + 11904.072 * TotRms AbvGrd + -45033.284
+2026-06-24 14:34:36 | INFO | JT-XYZ | R²: 0.5796
+2026-06-24 14:34:36 | INFO | JT-XYZ | RMSE: 51,793.29
+2026-06-24 14:34:36 | INFO | JT-XYZ | Multivariable regression complete.
+2026-06-24 14:34:36 | INFO | JT-XYZ | ========================
+2026-06-24 14:54:54 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 14:54:54 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 14:54:54 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:54:54 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 14:54:54 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 14:54:54 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 14:54:54 | INFO | JT‑XYZ | cwd=.
+2026-06-24 14:54:54 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 14:54:54 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 14:54:54 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:54:54 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 14:54:54 | INFO | JT‑XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 14:54:54 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:54:54 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 14:54:54 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 14:54:54 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 14:54:54 | INFO | JT‑XYZ | cwd=.
+2026-06-24 14:54:54 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 14:54:54 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 14:54:54 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:54:54 | INFO | JT‑XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 14:54:54 | INFO | JT‑XYZ | R²: 0.4101
+2026-06-24 14:54:54 | INFO | JT‑XYZ | RMSE: 61,354.78
+2026-06-24 14:54:55 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 14:54:55 | INFO | JT‑XYZ | ========================
+2026-06-24 14:54:55 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 14:54:55 | INFO | JT‑XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 14:54:55 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:54:55 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 14:54:55 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 14:54:55 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 14:54:55 | INFO | JT‑XYZ | cwd=.
+2026-06-24 14:54:55 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 14:54:55 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 14:54:55 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:54:55 | INFO | JT‑XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 14:54:55 | INFO | JT‑XYZ | R²: 0.3865
+2026-06-24 14:54:55 | INFO | JT‑XYZ | RMSE: 62,562.53
+2026-06-24 14:54:56 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 14:54:56 | INFO | JT‑XYZ | ========================
+2026-06-24 14:54:56 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 14:54:56 | INFO | JT‑XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 14:54:56 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:54:56 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 14:54:56 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 14:54:56 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 14:54:56 | INFO | JT‑XYZ | cwd=.
+2026-06-24 14:54:56 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 14:54:56 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 14:54:56 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:54:56 | INFO | JT‑XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 14:54:56 | INFO | JT‑XYZ | R²: 0.2455
+2026-06-24 14:54:56 | INFO | JT‑XYZ | RMSE: 69,379.54
+2026-06-24 14:54:57 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 14:54:57 | INFO | JT‑XYZ | ========================
+2026-06-24 14:55:06 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 14:55:06 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 14:55:06 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:55:06 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 14:55:06 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 14:55:06 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 14:55:06 | INFO | JT‑XYZ | cwd=.
+2026-06-24 14:55:06 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 14:55:42 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 14:55:43 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:55:45 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 14:55:45 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:55:50 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 14:55:50 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:56:18 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 14:56:18 | INFO | JT‑XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 14:56:18 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:56:18 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 14:56:18 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 14:56:18 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 14:56:18 | INFO | JT‑XYZ | cwd=.
+2026-06-24 14:56:18 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 14:56:18 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 14:56:18 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:56:18 | INFO | JT‑XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 14:56:18 | INFO | JT‑XYZ | R²: 0.4101
+2026-06-24 14:56:18 | INFO | JT‑XYZ | RMSE: 61,354.78
+2026-06-24 14:56:19 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 14:56:19 | INFO | JT‑XYZ | ========================
+2026-06-24 14:56:19 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 14:56:19 | INFO | JT‑XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 14:56:19 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:56:19 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 14:56:19 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 14:56:19 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 14:56:19 | INFO | JT‑XYZ | cwd=.
+2026-06-24 14:56:19 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 14:56:19 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 14:56:19 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:56:19 | INFO | JT‑XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 14:56:19 | INFO | JT‑XYZ | R²: 0.3865
+2026-06-24 14:56:19 | INFO | JT‑XYZ | RMSE: 62,562.53
+2026-06-24 14:56:20 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 14:56:20 | INFO | JT‑XYZ | ========================
+2026-06-24 14:56:20 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 14:56:20 | INFO | JT‑XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 14:56:20 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 14:56:20 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 14:56:20 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 14:56:20 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 14:56:20 | INFO | JT‑XYZ | cwd=.
+2026-06-24 14:56:20 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 14:56:20 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 14:56:20 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 14:56:20 | INFO | JT‑XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 14:56:20 | INFO | JT‑XYZ | R²: 0.2455
+2026-06-24 14:56:20 | INFO | JT‑XYZ | RMSE: 69,379.54
+2026-06-24 14:56:21 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 14:56:21 | INFO | JT‑XYZ | ========================
+2026-06-24 15:34:08 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:34:08 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 15:34:08 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:34:08 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:34:08 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:34:08 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:34:08 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:34:08 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:34:08 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 15:37:01 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:37:01 | INFO | JT‑XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 15:37:01 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:37:01 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:37:01 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:37:01 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:37:01 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:37:01 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:37:01 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 15:37:01 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 15:37:01 | INFO | JT‑XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 15:37:01 | INFO | JT‑XYZ | R²: 0.4101
+2026-06-24 15:37:01 | INFO | JT‑XYZ | RMSE: 61,354.78
+2026-06-24 15:37:02 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 15:37:02 | INFO | JT‑XYZ | ========================
+2026-06-24 15:37:02 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:37:02 | INFO | JT‑XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 15:37:02 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:37:02 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:37:02 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:37:02 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:37:02 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:37:02 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:37:02 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 15:37:02 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 15:37:02 | INFO | JT‑XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 15:37:02 | INFO | JT‑XYZ | R²: 0.3865
+2026-06-24 15:37:02 | INFO | JT‑XYZ | RMSE: 62,562.53
+2026-06-24 15:37:03 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 15:37:03 | INFO | JT‑XYZ | ========================
+2026-06-24 15:37:03 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:37:03 | INFO | JT‑XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 15:37:03 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:37:03 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:37:03 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:37:03 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:37:03 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:37:03 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:37:03 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 15:37:03 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 15:37:03 | INFO | JT‑XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 15:37:03 | INFO | JT‑XYZ | R²: 0.2455
+2026-06-24 15:37:03 | INFO | JT‑XYZ | RMSE: 69,379.54
+2026-06-24 15:37:04 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 15:37:04 | INFO | JT‑XYZ | ========================
+2026-06-24 15:44:44 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:44:44 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 15:44:44 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:44:44 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:44:44 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:44:44 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:44:44 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:44:44 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:44:46 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:44:46 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 15:44:46 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:44:46 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:44:46 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:44:46 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:44:46 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:44:46 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:44:49 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:44:49 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 15:44:49 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:44:49 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:44:49 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:44:49 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:44:49 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:44:49 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:44:53 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:44:53 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 15:44:53 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:44:53 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:44:53 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:44:53 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:44:53 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:44:53 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:44:58 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:44:58 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 15:44:58 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:44:58 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:44:58 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:44:58 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:44:58 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:44:58 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:44:59 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:44:59 | INFO | JT‑XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 15:44:59 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:44:59 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:44:59 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:44:59 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:44:59 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:44:59 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:44:59 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 15:44:59 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 15:44:59 | INFO | JT‑XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 15:44:59 | INFO | JT‑XYZ | R²: 0.4101
+2026-06-24 15:44:59 | INFO | JT‑XYZ | RMSE: 61,354.78
+2026-06-24 15:45:00 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 15:45:00 | INFO | JT‑XYZ | ========================
+2026-06-24 15:45:00 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:45:00 | INFO | JT‑XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 15:45:00 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:45:00 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:45:00 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:45:00 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:45:00 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:45:00 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:45:00 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 15:45:00 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 15:45:00 | INFO | JT‑XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 15:45:00 | INFO | JT‑XYZ | R²: 0.3865
+2026-06-24 15:45:00 | INFO | JT‑XYZ | RMSE: 62,562.53
+2026-06-24 15:45:00 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 15:45:00 | INFO | JT‑XYZ | ========================
+2026-06-24 15:45:00 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:45:00 | INFO | JT‑XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 15:45:00 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:45:00 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:45:00 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:45:00 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:45:00 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:45:00 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:45:00 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 15:45:00 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 15:45:00 | INFO | JT‑XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 15:45:00 | INFO | JT‑XYZ | R²: 0.2455
+2026-06-24 15:45:00 | INFO | JT‑XYZ | RMSE: 69,379.54
+2026-06-24 15:45:01 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 15:45:01 | INFO | JT‑XYZ | ========================
+2026-06-24 15:49:47 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:49:47 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 15:49:47 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:49:47 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:49:47 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:49:47 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:49:47 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:49:47 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:49:47 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:49:47 | INFO | JT‑XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 15:49:47 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:49:47 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:49:47 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:49:47 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:49:47 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:49:47 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:49:47 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 15:49:47 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 15:49:47 | INFO | JT‑XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 15:49:47 | INFO | JT‑XYZ | R²: 0.4101
+2026-06-24 15:49:47 | INFO | JT‑XYZ | RMSE: 61,354.78
+2026-06-24 15:49:48 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 15:49:48 | INFO | JT‑XYZ | ========================
+2026-06-24 15:49:48 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:49:48 | INFO | JT‑XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 15:49:48 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:49:48 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:49:48 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:49:48 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:49:48 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:49:48 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:49:48 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 15:49:48 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 15:49:48 | INFO | JT‑XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 15:49:48 | INFO | JT‑XYZ | R²: 0.3865
+2026-06-24 15:49:48 | INFO | JT‑XYZ | RMSE: 62,562.53
+2026-06-24 15:49:49 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 15:49:49 | INFO | JT‑XYZ | ========================
+2026-06-24 15:49:49 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 15:49:49 | INFO | JT‑XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 15:49:49 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 15:49:49 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 15:49:49 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 15:49:49 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 15:49:49 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 15:49:49 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 15:49:49 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 15:49:49 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 15:49:49 | INFO | JT‑XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 15:49:49 | INFO | JT‑XYZ | R²: 0.2455
+2026-06-24 15:49:49 | INFO | JT‑XYZ | RMSE: 69,379.54
+2026-06-24 15:49:49 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 15:49:49 | INFO | JT‑XYZ | ========================
+2026-06-24 16:06:33 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:06:33 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 16:06:33 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:06:33 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:06:33 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:06:33 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:06:33 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:06:33 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:06:33 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:06:33 | INFO | JT‑XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 16:06:33 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:06:33 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:06:33 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:06:33 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:06:33 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:06:33 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:06:33 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:06:33 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:06:33 | INFO | JT‑XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 16:06:33 | INFO | JT‑XYZ | R²: 0.4101
+2026-06-24 16:06:33 | INFO | JT‑XYZ | RMSE: 61,354.78
+2026-06-24 16:06:34 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:06:34 | INFO | JT‑XYZ | ========================
+2026-06-24 16:06:34 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:06:34 | INFO | JT‑XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 16:06:34 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:06:34 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:06:34 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:06:34 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:06:34 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:06:34 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:06:34 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:06:34 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:06:34 | INFO | JT‑XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 16:06:34 | INFO | JT‑XYZ | R²: 0.3865
+2026-06-24 16:06:34 | INFO | JT‑XYZ | RMSE: 62,562.53
+2026-06-24 16:06:35 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:06:35 | INFO | JT‑XYZ | ========================
+2026-06-24 16:06:35 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:06:35 | INFO | JT‑XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 16:06:35 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:06:35 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:06:35 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:06:35 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:06:35 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:06:35 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:06:35 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:06:35 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:06:35 | INFO | JT‑XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 16:06:35 | INFO | JT‑XYZ | R²: 0.2455
+2026-06-24 16:06:35 | INFO | JT‑XYZ | RMSE: 69,379.54
+2026-06-24 16:06:36 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:06:36 | INFO | JT‑XYZ | ========================
+2026-06-24 16:12:01 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:01 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 16:12:01 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:01 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:01 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:01 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:01 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:01 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:01 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:01 | INFO | JT‑XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 16:12:01 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:01 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:01 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:01 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:01 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:01 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:01 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:12:01 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:12:01 | INFO | JT‑XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 16:12:01 | INFO | JT‑XYZ | R²: 0.4101
+2026-06-24 16:12:01 | INFO | JT‑XYZ | RMSE: 61,354.78
+2026-06-24 16:12:02 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:12:02 | INFO | JT‑XYZ | ========================
+2026-06-24 16:12:02 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:02 | INFO | JT‑XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 16:12:02 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:02 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:02 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:02 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:02 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:02 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:02 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:12:02 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:12:02 | INFO | JT‑XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 16:12:02 | INFO | JT‑XYZ | R²: 0.3865
+2026-06-24 16:12:02 | INFO | JT‑XYZ | RMSE: 62,562.53
+2026-06-24 16:12:03 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:12:03 | INFO | JT‑XYZ | ========================
+2026-06-24 16:12:03 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:03 | INFO | JT‑XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 16:12:03 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:03 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:03 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:03 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:03 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:03 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:03 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:12:03 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:12:03 | INFO | JT‑XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 16:12:03 | INFO | JT‑XYZ | R²: 0.2455
+2026-06-24 16:12:03 | INFO | JT‑XYZ | RMSE: 69,379.54
+2026-06-24 16:12:04 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:12:04 | INFO | JT‑XYZ | ========================
+2026-06-24 16:12:06 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:06 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 16:12:06 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:06 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:06 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:06 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:06 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:06 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:07 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:07 | INFO | JT‑XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 16:12:07 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:07 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:07 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:07 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:07 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:07 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:07 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:12:07 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:12:07 | INFO | JT‑XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 16:12:07 | INFO | JT‑XYZ | R²: 0.4101
+2026-06-24 16:12:07 | INFO | JT‑XYZ | RMSE: 61,354.78
+2026-06-24 16:12:07 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:12:07 | INFO | JT‑XYZ | ========================
+2026-06-24 16:12:07 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:07 | INFO | JT‑XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 16:12:07 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:07 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:07 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:07 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:07 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:07 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:07 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:12:08 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:12:08 | INFO | JT‑XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 16:12:08 | INFO | JT‑XYZ | R²: 0.3865
+2026-06-24 16:12:08 | INFO | JT‑XYZ | RMSE: 62,562.53
+2026-06-24 16:12:08 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:12:08 | INFO | JT‑XYZ | ========================
+2026-06-24 16:12:08 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:08 | INFO | JT‑XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 16:12:08 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:08 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:08 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:08 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:08 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:08 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:08 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:12:08 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:12:08 | INFO | JT‑XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 16:12:08 | INFO | JT‑XYZ | R²: 0.2455
+2026-06-24 16:12:08 | INFO | JT‑XYZ | RMSE: 69,379.54
+2026-06-24 16:12:09 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:12:09 | INFO | JT‑XYZ | ========================
+2026-06-24 16:12:22 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:22 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 16:12:22 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:22 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:22 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:22 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:22 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:22 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:22 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:22 | INFO | JT‑XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 16:12:22 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:22 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:22 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:22 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:22 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:22 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:22 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:12:22 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:12:22 | INFO | JT‑XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 16:12:22 | INFO | JT‑XYZ | R²: 0.4101
+2026-06-24 16:12:22 | INFO | JT‑XYZ | RMSE: 61,354.78
+2026-06-24 16:12:23 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:12:23 | INFO | JT‑XYZ | ========================
+2026-06-24 16:12:23 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:23 | INFO | JT‑XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 16:12:23 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:23 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:23 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:23 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:23 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:23 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:23 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:12:23 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:12:23 | INFO | JT‑XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 16:12:23 | INFO | JT‑XYZ | R²: 0.3865
+2026-06-24 16:12:23 | INFO | JT‑XYZ | RMSE: 62,562.53
+2026-06-24 16:12:24 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:12:24 | INFO | JT‑XYZ | ========================
+2026-06-24 16:12:24 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:12:24 | INFO | JT‑XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 16:12:24 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:12:24 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:12:24 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:12:24 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:12:24 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:12:24 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:12:24 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:12:24 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:12:24 | INFO | JT‑XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 16:12:24 | INFO | JT‑XYZ | R²: 0.2455
+2026-06-24 16:12:24 | INFO | JT‑XYZ | RMSE: 69,379.54
+2026-06-24 16:12:25 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:12:25 | INFO | JT‑XYZ | ========================
+2026-06-24 16:14:44 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:14:44 | INFO | JT‑XYZ | project=JT XYZ REGRESSIONS (Notebook)
+2026-06-24 16:14:44 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:14:44 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:14:44 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:14:44 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:14:44 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:14:44 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:14:44 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:14:44 | INFO | JT‑XYZ | project=XYZ REGRESSION: Garage Area
+2026-06-24 16:14:44 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:14:44 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:14:44 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:14:44 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:14:44 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:14:44 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:14:44 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:14:44 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:14:44 | INFO | JT‑XYZ | Fitted line: SalePrice = 237.935 * Garage Area + 68306.1
+2026-06-24 16:14:44 | INFO | JT‑XYZ | R²: 0.4101
+2026-06-24 16:14:44 | INFO | JT‑XYZ | RMSE: 61,354.78
+2026-06-24 16:14:45 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:14:45 | INFO | JT‑XYZ | ========================
+2026-06-24 16:14:45 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:14:45 | INFO | JT‑XYZ | project=XYZ REGRESSION: 1st Flr SF
+2026-06-24 16:14:45 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:14:45 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:14:45 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:14:45 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:14:45 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:14:45 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:14:45 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:14:45 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:14:45 | INFO | JT‑XYZ | Fitted line: SalePrice = 126.728 * 1st Flr SF + 33847.3
+2026-06-24 16:14:45 | INFO | JT‑XYZ | R²: 0.3865
+2026-06-24 16:14:45 | INFO | JT‑XYZ | RMSE: 62,562.53
+2026-06-24 16:14:46 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:14:46 | INFO | JT‑XYZ | ========================
+2026-06-24 16:14:46 | INFO | JT‑XYZ | === RUN START ===
+2026-06-24 16:14:46 | INFO | JT‑XYZ | project=XYZ REGRESSION: TotRms AbvGrd
+2026-06-24 16:14:46 | INFO | JT‑XYZ | repo_dir=datafun-07-regression
+2026-06-24 16:14:46 | INFO | JT‑XYZ | python=3.14.5
+2026-06-24 16:14:46 | INFO | JT‑XYZ | os=Windows 11
+2026-06-24 16:14:46 | INFO | JT‑XYZ | shell=powershell
+2026-06-24 16:14:46 | INFO | JT‑XYZ | cwd=notebooks
+2026-06-24 16:14:46 | INFO | JT‑XYZ | github_actions=False
+2026-06-24 16:14:46 | INFO | JT‑XYZ | Loading dataset: housing
+2026-06-24 16:14:46 | INFO | JT‑XYZ | Loaded: 2930 rows, 83 columns
+2026-06-24 16:14:46 | INFO | JT‑XYZ | Fitted line: SalePrice = 25163.8 * TotRms AbvGrd + 18665.4
+2026-06-24 16:14:46 | INFO | JT‑XYZ | R²: 0.2455
+2026-06-24 16:14:46 | INFO | JT‑XYZ | RMSE: 69,379.54
+2026-06-24 16:14:47 | INFO | JT‑XYZ | XYZ regression complete.
+2026-06-24 16:14:47 | INFO | JT‑XYZ | ========================
